@@ -43,8 +43,120 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+# Función para calcular precisión de pronósticos
+def calculate_prediction_accuracy(df, stats):
+    """
+    Calcula la precisión de los pronósticos 1X2 para partidos jugados
+    """
+    played_matches = df.filter(pl.col("GA").is_not_null())
+    
+    if len(played_matches) == 0:
+        return 0.0, 0, 0
+    
+    correct_predictions = 0
+    total_matches = len(played_matches)
+    
+    for i in range(len(played_matches)):
+        match = played_matches[i]
+        home_team = match["Local"][0]
+        away_team = match["Visita"][0]
+        home_goals = match["GA"][0]
+        away_goals = match["GC"][0]
+        
+        # Determinar resultado real
+        if home_goals > away_goals:
+            real_result = "home"
+        elif home_goals < away_goals:
+            real_result = "away"
+        else:
+            real_result = "draw"
+        
+        # Calcular pronóstico
+        h_win_pct = stats.team_home_percentage_wins(home_team)
+        h_draw_pct = stats.team_home_percentage_draws(home_team)
+        a_win_pct = stats.team_away_percentage_wins(away_team)
+        a_draw_pct = stats.team_away_percentage_draws(away_team)
+        
+        pred_home_win = h_win_pct
+        pred_draw = (h_draw_pct + a_draw_pct) / 2
+        pred_away_win = a_win_pct
+        
+        # Normalizar
+        total_1x2 = pred_home_win + pred_draw + pred_away_win
+        if total_1x2 > 0:
+            pred_home_win = (pred_home_win / total_1x2) * 100
+            pred_draw = (pred_draw / total_1x2) * 100
+            pred_away_win = (pred_away_win / total_1x2) * 100
+        
+        # Determinar pronóstico más probable
+        max_prob = max(pred_home_win, pred_draw, pred_away_win)
+        if max_prob == pred_home_win:
+            predicted_result = "home"
+        elif max_prob == pred_draw:
+            predicted_result = "draw"
+        else:
+            predicted_result = "away"
+        
+        # Verificar si el pronóstico fue correcto
+        if predicted_result == real_result:
+            correct_predictions += 1
+    
+    accuracy = (correct_predictions / total_matches) * 100 if total_matches > 0 else 0
+    return accuracy, correct_predictions, total_matches
+
 # Título principal
 st.markdown("<h1>⚽ Dashboard de Pronósticos Deportivos</h1>", unsafe_allow_html=True)
+
+# Inicializar historial de precisión en session_state
+if 'league_accuracy_history' not in st.session_state:
+    st.session_state['league_accuracy_history'] = {}
+
+# Mostrar resumen de ligas con mejores aciertos
+if st.session_state.get('league_accuracy_history'):
+    st.markdown("### 🏆 Resumen: Ligas con Mejores Pronósticos")
+    
+    # Ordenar ligas por precisión
+    sorted_leagues = sorted(
+        st.session_state['league_accuracy_history'].items(),
+        key=lambda x: x[1]['accuracy'],
+        reverse=True
+    )
+    
+    # Mostrar top 5 en columnas
+    if len(sorted_leagues) > 0:
+        num_cols = min(5, len(sorted_leagues))
+        cols = st.columns(num_cols)
+        
+        for idx, (league_name, data) in enumerate(sorted_leagues[:5]):
+            with cols[idx]:
+                accuracy = data['accuracy']
+                correct = data['correct']
+                total = data['total']
+                
+                # Color según precisión
+                if accuracy >= 60:
+                    color = "#00d4ff"  # Azul brillante
+                    icon = "🥇"
+                elif accuracy >= 50:
+                    color = "#ffd700"  # Dorado
+                    icon = "🥈"
+                elif accuracy >= 40:
+                    color = "#ff8c00"  # Naranja
+                    icon = "🥉"
+                else:
+                    color = "#ff4b4b"  # Rojo
+                    icon = "📊"
+                
+                st.markdown(f"""
+                <div style='background-color: #2d3142; padding: 15px; border-radius: 10px; border-left: 4px solid {color};'>
+                    <div style='font-size: 1.5rem; margin-bottom: 5px;'>{icon}</div>
+                    <div style='font-size: 0.9rem; color: #e0e0e0; margin-bottom: 5px;'>{league_name[:20]}...</div>
+                    <div style='font-size: 1.8rem; color: {color}; font-weight: bold;'>{accuracy:.1f}%</div>
+                    <div style='font-size: 0.8rem; color: #999;'>{correct}/{total} aciertos</div>
+                </div>
+                """, unsafe_allow_html=True)
+        
+        st.markdown("---")
 
 # Sidebar - Logo y Configuración
 try:
@@ -105,7 +217,19 @@ if st.sidebar.button("🔄 Cargar Datos", type="primary"):
         df = extractor.get_dataframe()
         st.session_state['df'] = df
         st.session_state['liga'] = liga_seleccionada
-        st.success("✅ Datos cargados exitosamente!")
+        
+        # Calcular precisión de pronósticos para esta liga
+        stats_temp = StatisticsCalculator(df)
+        accuracy, correct, total = calculate_prediction_accuracy(df, stats_temp)
+        
+        # Guardar en historial de precisión
+        st.session_state['league_accuracy_history'][liga_seleccionada] = {
+            'accuracy': accuracy,
+            'correct': correct,
+            'total': total
+        }
+        
+        st.success(f"✅ Datos cargados exitosamente! Precisión: {accuracy:.1f}% ({correct}/{total})")
 
 # Verificar si hay datos cargados
 if 'df' not in st.session_state:
