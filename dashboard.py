@@ -263,6 +263,160 @@ with col4:
 
 st.markdown("---")
 
+# MEJOR APUESTA RECOMENDADA
+st.markdown("### 💎 Mejor Oportunidad de Apuesta")
+
+upcoming_matches = stats.get_upcoming_matches()
+
+if len(upcoming_matches) > 0:
+    best_match = None
+    best_probability = 0
+    best_prediction = None
+    best_market = None
+    
+    # Analizar todos los partidos próximos para encontrar el mejor
+    for i in range(len(upcoming_matches)):
+        match = upcoming_matches[i]
+        home_team = match["Local"][0]
+        away_team = match["Visita"][0]
+        
+        # Calcular probabilidades 1X2
+        h_win_pct = stats.team_home_percentage_wins(home_team)
+        h_draw_pct = stats.team_home_percentage_draws(home_team)
+        a_win_pct = stats.team_away_percentage_wins(away_team)
+        a_draw_pct = stats.team_away_percentage_draws(away_team)
+        
+        pred_home_win = h_win_pct
+        pred_draw = (h_draw_pct + a_draw_pct) / 2
+        pred_away_win = a_win_pct
+        
+        # Normalizar
+        total_1x2 = pred_home_win + pred_draw + pred_away_win
+        if total_1x2 > 0:
+            pred_home_win = (pred_home_win / total_1x2) * 100
+            pred_draw = (pred_draw / total_1x2) * 100
+            pred_away_win = (pred_away_win / total_1x2) * 100
+        
+        # Calcular estadísticas de goles
+        h_over_25 = stats.team_home_percentage_over_goals(home_team, 2)
+        a_over_25 = stats.team_away_percentage_over_goals(away_team, 2)
+        pred_over_25 = (h_over_25 + a_over_25) / 2
+        
+        h_btts = stats.team_home_percentage_btts(home_team)
+        a_btts = stats.team_away_percentage_btts(away_team)
+        pred_btts = (h_btts + a_btts) / 2
+        
+        # Encontrar la probabilidad más alta entre todos los mercados
+        all_probabilities = [
+            (pred_home_win, f"Victoria {home_team}", "1X2", home_team, away_team, match),
+            (pred_draw, "Empate", "1X2", home_team, away_team, match),
+            (pred_away_win, f"Victoria {away_team}", "1X2", home_team, away_team, match),
+            (pred_over_25, "Más de 2.5 goles", "Goles", home_team, away_team, match),
+            (pred_btts, "Ambos Marcan (BTTS)", "BTTS", home_team, away_team, match),
+        ]
+        
+        for prob, market_name, market_type, h_team, a_team, m in all_probabilities:
+            if prob > best_probability:
+                best_probability = prob
+                best_prediction = market_name
+                best_market = market_type
+                best_match = {
+                    'home': h_team,
+                    'away': a_team,
+                    'date': m["Fecha"][0],
+                    'time': m["Hora"][0],
+                    'round': m["Jornada"][0],
+                    'prob_home': pred_home_win,
+                    'prob_draw': pred_draw,
+                    'prob_away': pred_away_win,
+                    'prob_over25': pred_over_25,
+                    'prob_btts': pred_btts
+                }
+    
+    # Mostrar la mejor apuesta
+    if best_match:
+        # Calcular cuota
+        best_odd = 100 / best_probability if best_probability > 0 else 0
+        
+        # Color según probabilidad
+        if best_probability >= 70:
+            bg_color = "#1a472a"  # Verde oscuro
+            border_color = "#00ff88"
+            confidence = "MUY ALTA"
+            confidence_icon = "🟢"
+        elif best_probability >= 60:
+            bg_color = "#2d3142"
+            border_color = "#00d4ff"
+            confidence = "ALTA"
+            confidence_icon = "🔵"
+        elif best_probability >= 50:
+            bg_color = "#3d3520"
+            border_color = "#ffd700"
+            confidence = "MEDIA"
+            confidence_icon = "🟡"
+        else:
+            bg_color = "#2d3142"
+            border_color = "#ff8c00"
+            confidence = "BAJA"
+            confidence_icon = "🟠"
+        
+        st.markdown(f"""
+        <div style='background: linear-gradient(135deg, {bg_color} 0%, #1a1d29 100%); 
+                    padding: 25px; 
+                    border-radius: 15px; 
+                    border-left: 6px solid {border_color};
+                    box-shadow: 0 8px 16px rgba(0,0,0,0.3);'>
+            <div style='display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;'>
+                <div style='font-size: 1.1rem; color: #e0e0e0;'>
+                    <strong>⚽ {best_match['home']} vs {best_match['away']}</strong>
+                </div>
+                <div style='background-color: {border_color}; color: #000; padding: 5px 15px; border-radius: 20px; font-weight: bold;'>
+                    {confidence_icon} {confidence}
+                </div>
+            </div>
+            <div style='color: #999; font-size: 0.9rem; margin-bottom: 15px;'>
+                📅 {best_match['date']} | ⏰ {best_match['time']} | 🏆 {best_match['round']}
+            </div>
+            <div style='background-color: rgba(0,0,0,0.3); padding: 20px; border-radius: 10px;'>
+                <div style='font-size: 1.3rem; color: {border_color}; font-weight: bold; margin-bottom: 10px;'>
+                    💰 APUESTA RECOMENDADA: {best_prediction}
+                </div>
+                <div style='display: flex; gap: 30px; margin-top: 15px;'>
+                    <div>
+                        <div style='color: #999; font-size: 0.9rem;'>Probabilidad</div>
+                        <div style='font-size: 2rem; color: {border_color}; font-weight: bold;'>{best_probability:.1f}%</div>
+                    </div>
+                    <div>
+                        <div style='color: #999; font-size: 0.9rem;'>Cuota Calculada</div>
+                        <div style='font-size: 2rem; color: #ffd700; font-weight: bold;'>{best_odd:.2f}</div>
+                    </div>
+                    <div>
+                        <div style='color: #999; font-size: 0.9rem;'>Mercado</div>
+                        <div style='font-size: 1.5rem; color: #fff; font-weight: bold;'>{best_market}</div>
+                    </div>
+                </div>
+            </div>
+            <div style='margin-top: 15px; padding: 15px; background-color: rgba(0,0,0,0.2); border-radius: 8px;'>
+                <div style='color: #e0e0e0; font-size: 0.95rem; margin-bottom: 8px;'><strong>📊 Probabilidades del Partido:</strong></div>
+                <div style='display: flex; gap: 20px; font-size: 0.9rem;'>
+                    <div>🏠 Victoria Local: <strong>{best_match['prob_home']:.1f}%</strong></div>
+                    <div>🤝 Empate: <strong>{best_match['prob_draw']:.1f}%</strong></div>
+                    <div>✈️ Victoria Visitante: <strong>{best_match['prob_away']:.1f}%</strong></div>
+                </div>
+                <div style='display: flex; gap: 20px; font-size: 0.9rem; margin-top: 8px;'>
+                    <div>🔥 Más de 2.5: <strong>{best_match['prob_over25']:.1f}%</strong></div>
+                    <div>🎯 BTTS: <strong>{best_match['prob_btts']:.1f}%</strong></div>
+                </div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        st.caption("💡 Esta es la apuesta con mayor probabilidad de acierto según nuestro análisis estadístico")
+else:
+    st.info("No hay partidos próximos disponibles para analizar")
+
+st.markdown("---")
+
 # Dos columnas para gráficos
 col_left, col_right = st.columns(2)
 
