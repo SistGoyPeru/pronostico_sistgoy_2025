@@ -1289,6 +1289,38 @@ if len(upcoming_matches) > 0:
                 },
                 hide_index=True
             )
+            
+            # --- BOTÓN DE WHATSAPP ---
+            st.markdown("### 📲 Compartir Resultados")
+            
+            # Generar mensaje para WhatsApp
+            wa_text = f"*📊 PRONÓSTICOS SISTGOY - {selected_date}* ⚽\n\n"
+            wa_text += "*💎 MEJORES OPORTUNIDADES:*\n\n"
+            
+            # Iterar sobre el dataframe ordenado para el mensaje
+            for index, row in df_summary.iterrows():
+                # Solo incluir las de probabilidad media/alta para no saturar
+                if row['prob_val'] >= 55:
+                    icon = "🟢" if row['prob_val'] >= 70 else "🟡"
+                    wa_text += f"{icon} *{row['Partido']}*\n"
+                    wa_text += f"   └ {row['Mejor Pronóstico']} ({row['Tipo']})\n"
+                    wa_text += f"   └ Prob: {row['Probabilidad']} | Cuota: {row['Cuota']}\n\n"
+            
+            wa_text += "🚀 *Generado por SistGoy Pronósticos*"
+            
+            # Codificar mensaje para URL
+            import urllib.parse
+            wa_encoded = urllib.parse.quote(wa_text)
+            wa_link = f"https://wa.me/?text={wa_encoded}"
+            
+            # Botón de enlace
+            st.link_button(
+                label="📤 Enviar Resumen por WhatsApp",
+                url=wa_link,
+                type="primary",
+                help="Clic para abrir WhatsApp con el resumen listo para enviar"
+            )
+            # -------------------------
         
         st.markdown("---")
         st.markdown("### 📋 Todos los Partidos de la Fecha")
