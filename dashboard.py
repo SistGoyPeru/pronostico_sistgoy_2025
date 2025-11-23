@@ -269,6 +269,179 @@ st.markdown("""
         border-radius: 8px !important;
         border: 2px solid #30363d !important;
     }
+    
+    /* ========== RESPONSIVE DESIGN - MÓVILES ========== */
+    
+    /* Tablets y pantallas medianas (768px - 1024px) */
+    @media screen and (max-width: 1024px) {
+        .block-container {
+            padding: 1rem !important;
+        }
+        
+        h1 {
+            font-size: 2.2rem !important;
+            letter-spacing: 2px !important;
+        }
+        
+        h2, h3 {
+            font-size: 1.4rem !important;
+        }
+        
+        .stMetric {
+            padding: 15px !important;
+        }
+        
+        .stMetric [data-testid="stMetricValue"] {
+            font-size: 2rem !important;
+        }
+        
+        .stButton > button {
+            padding: 14px 24px !important;
+            font-size: 1rem !important;
+        }
+    }
+    
+    /* Móviles (max 768px) */
+    @media screen and (max-width: 768px) {
+        .block-container {
+            padding: 0.5rem !important;
+            padding-top: 1rem !important;
+        }
+        
+        /* Títulos más pequeños */
+        h1 {
+            font-size: 1.8rem !important;
+            letter-spacing: 1px !important;
+            padding-bottom: 10px;
+            margin-bottom: 1rem !important;
+        }
+        
+        h2, h3 {
+            font-size: 1.2rem !important;
+            letter-spacing: 1px !important;
+            margin-top: 1.5rem !important;
+            padding-left: 8px;
+        }
+        
+        /* Texto más legible en móvil */
+        p, div, span, label {
+            font-size: 1rem !important;
+        }
+        
+        /* Métricas optimizadas para móvil */
+        .stMetric {
+            padding: 12px !important;
+            margin-bottom: 10px !important;
+        }
+        
+        .stMetric label {
+            font-size: 0.75rem !important;
+            letter-spacing: 0.8px !important;
+        }
+        
+        .stMetric [data-testid="stMetricValue"] {
+            font-size: 1.8rem !important;
+        }
+        
+        /* Botones táctiles más grandes */
+        .stButton > button {
+            padding: 16px 20px !important;
+            font-size: 0.95rem !important;
+            width: 100% !important;
+            letter-spacing: 1px !important;
+        }
+        
+        /* Selectores más fáciles de tocar */
+        .stSelectbox > div > div {
+            padding: 12px !important;
+            font-size: 1rem !important;
+        }
+        
+        .stSelectbox label {
+            font-size: 0.9rem !important;
+        }
+        
+        /* Expanders optimizados */
+        .streamlit-expanderHeader {
+            padding: 10px 12px !important;
+            font-size: 0.95rem !important;
+        }
+        
+        /* Sidebar responsive */
+        [data-testid="stSidebar"] {
+            min-width: 250px !important;
+        }
+        
+        /* Scrollbar más delgado en móvil */
+        ::-webkit-scrollbar {
+            width: 8px !important;
+            height: 8px !important;
+        }
+        
+        /* Divisores más compactos */
+        hr {
+            margin: 1.5rem 0 !important;
+        }
+    }
+    
+    /* Móviles pequeños (max 480px) */
+    @media screen and (max-width: 480px) {
+        h1 {
+            font-size: 1.5rem !important;
+            letter-spacing: 0.5px !important;
+        }
+        
+        h2, h3 {
+            font-size: 1.1rem !important;
+        }
+        
+        .stMetric {
+            padding: 10px !important;
+        }
+        
+        .stMetric label {
+            font-size: 0.7rem !important;
+        }
+        
+        .stMetric [data-testid="stMetricValue"] {
+            font-size: 1.5rem !important;
+        }
+        
+        .stButton > button {
+            padding: 14px 16px !important;
+            font-size: 0.9rem !important;
+        }
+        
+        [data-testid="stSidebar"] {
+            min-width: 200px !important;
+        }
+    }
+    
+    /* Orientación horizontal en móviles */
+    @media screen and (max-width: 768px) and (orientation: landscape) {
+        h1 {
+            font-size: 1.6rem !important;
+            margin-bottom: 0.8rem !important;
+        }
+        
+        .stMetric {
+            padding: 8px !important;
+        }
+        
+        .stMetric [data-testid="stMetricValue"] {
+            font-size: 1.6rem !important;
+        }
+    }
+    
+    /* Touch-friendly: aumentar áreas táctiles */
+    @media (hover: none) and (pointer: coarse) {
+        .stButton > button,
+        .streamlit-expanderHeader,
+        button[kind="header"] {
+            min-height: 44px !important;
+            min-width: 44px !important;
+        }
+    }
     </style>
 """, unsafe_allow_html=True)
 
