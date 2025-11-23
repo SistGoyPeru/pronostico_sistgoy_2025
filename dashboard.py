@@ -88,31 +88,38 @@ st.markdown("""
     
     /* ========== TEXTO GENERAL ========== */
     p, div, span, label {
-        color: #c9d1d9 !important;
-        font-size: 1rem !important;
+        color: #ffffff !important;
+        font-size: 1.1rem !important;
         line-height: 1.6 !important;
     }
     
     .stMarkdown {
-        color: #c9d1d9 !important;
+        color: #ffffff !important;
     }
     
     /* ========== SIDEBAR ESTILO BETTING ========== */
     [data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #0a0f0a 0%, #000000 100%) !important;
-        border-right: 3px solid #2ea043 !important;
+        background: linear-gradient(180deg, #0f0a14 0%, #000000 100%) !important;
+        border-right: 3px solid #9333ea !important;
     }
     
     [data-testid="stSidebar"] h1, 
     [data-testid="stSidebar"] h2, 
     [data-testid="stSidebar"] h3 {
-        color: #3fb950 !important;
+        color: #a855f7 !important;
+    }
+    
+    [data-testid="stSidebar"] p,
+    [data-testid="stSidebar"] div,
+    [data-testid="stSidebar"] span,
+    [data-testid="stSidebar"] label {
+        color: #ffffff !important;
     }
     
     /* ========== BOTONES ESTILO APOSTAR ========== */
     .stButton > button {
-        background: linear-gradient(135deg, #3fb950 0%, #2ea043 100%) !important;
-        color: #000000 !important;
+        background: linear-gradient(135deg, #a855f7 0%, #9333ea 100%) !important;
+        color: #ffffff !important;
         font-weight: 900 !important;
         border: none !important;
         border-radius: 8px !important;
@@ -120,12 +127,12 @@ st.markdown("""
         font-size: 1.1rem !important;
         text-transform: uppercase !important;
         letter-spacing: 1.5px !important;
-        box-shadow: 0 4px 15px rgba(63, 185, 80, 0.5) !important;
+        box-shadow: 0 4px 15px rgba(168, 85, 247, 0.5) !important;
         transition: all 0.3s ease !important;
     }
     .stButton > button:hover {
-        background: linear-gradient(135deg, #2ea043 0%, #238636 100%) !important;
-        box-shadow: 0 6px 20px rgba(63, 185, 80, 0.7) !important;
+        background: linear-gradient(135deg, #9333ea 0%, #7e22ce 100%) !important;
+        box-shadow: 0 6px 20px rgba(168, 85, 247, 0.7) !important;
         transform: translateY(-3px) !important;
     }
     
@@ -136,9 +143,9 @@ st.markdown("""
     }
     
     .stSelectbox > div > div {
-        background-color: #0a0f0a !important;
-        border: 2px solid #2ea043 !important;
-        color: #c9d1d9 !important;
+        background-color: #0a050f !important;
+        border: 2px solid #9333ea !important;
+        color: #ffffff !important;
         font-weight: 600 !important;
     }
     
@@ -152,35 +159,35 @@ st.markdown("""
     
     /* Dropdown options */
     [data-baseweb="select"] > div {
-        background-color: #0a0f0a !important;
-        border: 2px solid #2ea043 !important;
+        background-color: #0a050f !important;
+        border: 2px solid #9333ea !important;
     }
     
     [role="option"] {
-        background-color: #0a0f0a !important;
-        color: #c9d1d9 !important;
+        background-color: #0a050f !important;
+        color: #ffffff !important;
     }
     
     [role="option"]:hover {
-        background-color: #1a1f2e !important;
-        color: #3fb950 !important;
+        background-color: #1a0f2e !important;
+        color: #a855f7 !important;
     }
     
     /* ========== EXPANDERS ESTILO PARTIDOS ========== */
     .streamlit-expanderHeader {
-        background: linear-gradient(135deg, #0f1419 0%, #0a0f0a 100%) !important;
+        background: linear-gradient(135deg, #0f0a19 0%, #0a050f 100%) !important;
         border-radius: 8px !important;
         border: 2px solid #30363d !important;
-        color: #c9d1d9 !important;
+        color: #ffffff !important;
         font-weight: 700 !important;
         font-size: 1.05rem !important;
         padding: 12px 16px !important;
         transition: all 0.3s ease !important;
     }
     .streamlit-expanderHeader:hover {
-        background: linear-gradient(135deg, #1a1f2e 0%, #0f1419 100%) !important;
-        border-color: #3fb950 !important;
-        box-shadow: 0 3px 10px rgba(63, 185, 80, 0.3) !important;
+        background: linear-gradient(135deg, #1a0f2e 0%, #0f0a19 100%) !important;
+        border-color: #a855f7 !important;
+        box-shadow: 0 3px 10px rgba(168, 85, 247, 0.4) !important;
     }
     
     /* ========== TABLAS ESTILO ODDS ========== */
@@ -192,30 +199,30 @@ st.markdown("""
     
     /* ========== ALERT BOXES ========== */
     .stAlert {
-        background-color: #0f1419 !important;
-        border-left: 5px solid #3fb950 !important;
-        color: #c9d1d9 !important;
+        background-color: #0f0a19 !important;
+        border-left: 5px solid #a855f7 !important;
+        color: #ffffff !important;
         border-radius: 8px !important;
     }
     
     /* ========== HEADER Y TOOLBAR ========== */
     header[data-testid="stHeader"] {
         background-color: #000000 !important;
-        border-bottom: 2px solid #2ea043 !important;
+        border-bottom: 2px solid #9333ea !important;
     }
     
     /* Botón Share y otros botones del header */
     button[kind="header"] {
-        background-color: #0a0f0a !important;
-        border: 2px solid #2ea043 !important;
-        color: #3fb950 !important;
+        background-color: #0a050f !important;
+        border: 2px solid #9333ea !important;
+        color: #a855f7 !important;
         border-radius: 6px !important;
     }
     
     button[kind="header"]:hover {
-        background-color: #1a1f2e !important;
-        border-color: #3fb950 !important;
-        color: #3fb950 !important;
+        background-color: #1a0f2e !important;
+        border-color: #a855f7 !important;
+        color: #c084fc !important;
     }
     
     /* Toolbar superior */
@@ -228,7 +235,7 @@ st.markdown("""
     }
     
     
-    /* ========== SCROLLBAR VERDE ========== */
+    /* ========== SCROLLBAR MORADO ========== */
     ::-webkit-scrollbar {
         width: 12px;
         height: 12px;
@@ -237,17 +244,17 @@ st.markdown("""
         background: #000000;
     }
     ::-webkit-scrollbar-thumb {
-        background: linear-gradient(180deg, #3fb950 0%, #2ea043 100%);
+        background: linear-gradient(180deg, #a855f7 0%, #9333ea 100%);
         border-radius: 6px;
     }
     ::-webkit-scrollbar-thumb:hover {
-        background: linear-gradient(180deg, #2ea043 0%, #238636 100%);
+        background: linear-gradient(180deg, #9333ea 0%, #7e22ce 100%);
     }
     
     /* ========== DIVISORES ========== */
     hr {
         border: none !important;
-        border-top: 2px solid #2ea043 !important;
+        border-top: 2px solid #9333ea !important;
         margin: 2rem 0 !important;
     }
     
