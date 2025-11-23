@@ -1238,6 +1238,9 @@ if len(upcoming_matches) > 0:
             import pandas as pd
             df_summary = pd.DataFrame(match_summaries)
             
+            # Ordenar por probabilidad (de mayor a menor)
+            df_summary = df_summary.sort_values(by='prob_val', ascending=False)
+            
             # Función para colorear probabilidad
             def color_prob(val):
                 if val >= 70:
