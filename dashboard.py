@@ -1485,12 +1485,87 @@ if len(played_matches) > 0:
         "Jornada", "Fecha", "Hora", "Local", "Visita", "Resultado", "Total Goles"
     ])
     
+    # Convertir a pandas para styling
+    import pandas as pd
+    df_pandas = display_df.to_pandas()
+    
+    # Función para colorear filas según total de goles
+    def color_rows(row):
+        total_goles = row['Total Goles']
+        if total_goles >= 4:
+            return ['background-color: #1a0f2e; color: #c084fc'] * len(row)  # Morado claro para muchos goles
+        elif total_goles >= 3:
+            return ['background-color: #0f0a19; color: #a855f7'] * len(row)  # Morado medio
+        elif total_goles >= 2:
+            return ['background-color: #0a050f; color: #ffffff'] * len(row)  # Oscuro con texto blanco
+        else:
+            return ['background-color: #050309; color: #8b949e'] * len(row)  # Muy oscuro para pocos goles
+    
+    # Aplicar estilos
+    styled_df = df_pandas.style.apply(color_rows, axis=1)\
+        .set_properties(**{
+            'text-align': 'center',
+            'font-size': '1rem',
+            'font-weight': '600',
+            'padding': '12px',
+            'border': '1px solid #30363d'
+        })\
+        .set_table_styles([
+            {'selector': 'thead th', 
+             'props': [
+                 ('background', 'linear-gradient(135deg, #9333ea 0%, #7e22ce 100%)'),
+                 ('color', '#ffffff'),
+                 ('font-weight', '900'),
+                 ('text-transform', 'uppercase'),
+                 ('letter-spacing', '1px'),
+                 ('padding', '14px'),
+                 ('font-size', '0.95rem'),
+                 ('border', '2px solid #a855f7'),
+                 ('text-align', 'center')
+             ]},
+            {'selector': 'tbody tr:hover',
+             'props': [
+                 ('background-color', '#1a0f2e !important'),
+                 ('color', '#c084fc !important'),
+                 ('transform', 'scale(1.01)'),
+                 ('box-shadow', '0 4px 12px rgba(168, 85, 247, 0.3)')
+             ]},
+            {'selector': 'table',
+             'props': [
+                 ('border-collapse', 'separate'),
+                 ('border-spacing', '0'),
+                 ('border-radius', '8px'),
+                 ('overflow', 'hidden'),
+                 ('border', '2px solid #9333ea'),
+                 ('box-shadow', '0 4px 15px rgba(147, 51, 234, 0.2)')
+             ]}
+        ])
+    
     st.dataframe(
-        display_df,
+        styled_df,
         use_container_width=True,
         hide_index=True,
-        height=400
+        height=450
     )
+    
+    # Leyenda de colores
+    st.markdown("""
+    <div style='display: flex; gap: 15px; margin-top: 15px; flex-wrap: wrap;'>
+        <div style='background: linear-gradient(135deg, #1a0f2e 0%, #0f0a19 100%); padding: 8px 16px; border-radius: 6px; border: 1px solid #a855f7;'>
+            <span style='color: #c084fc; font-weight: 700;'>🔥 4+ goles</span>
+        </div>
+        <div style='background: linear-gradient(135deg, #0f0a19 0%, #0a050f 100%); padding: 8px 16px; border-radius: 6px; border: 1px solid #9333ea;'>
+            <span style='color: #a855f7; font-weight: 700;'>⚽ 3 goles</span>
+        </div>
+        <div style='background: linear-gradient(135deg, #0a050f 0%, #050309 100%); padding: 8px 16px; border-radius: 6px; border: 1px solid #7e22ce;'>
+            <span style='color: #ffffff; font-weight: 700;'>🎯 2 goles</span>
+        </div>
+        <div style='background: linear-gradient(135deg, #050309 0%, #000000 100%); padding: 8px 16px; border-radius: 6px; border: 1px solid #6b21a8;'>
+            <span style='color: #8b949e; font-weight: 700;'>📊 0-1 goles</span>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+    
 else:
     st.info("No hay partidos jugados disponibles")
 
