@@ -12,154 +12,200 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Estilos personalizados - Estilo Casa de Apuestas Profesional
+# Estilos personalizados - Diseño Completo Casa de Apuestas
 st.markdown("""
     <style>
-    /* Fondo oscuro estilo casa de apuestas - NEGRO TOTAL */
+    /* ========== FONDOS PRINCIPALES ========== */
     .main {
         background-color: #000000 !important;
     }
     
-    /* Asegurar que todos los contenedores sean negros */
     .block-container {
         background-color: #000000 !important;
+        padding-top: 2rem !important;
     }
     
     .stApp {
         background-color: #000000 !important;
     }
     
-    /* Tarjetas de métricas estilo betting */
+    /* ========== TARJETAS DE MÉTRICAS ESTILO CUOTAS ========== */
     .stMetric {
-        background: linear-gradient(135deg, #0a0e14 0%, #000000 100%);
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
-        border: 1px solid #2ea043;
+        background: linear-gradient(135deg, #1a1f1a 0%, #0a0f0a 100%);
+        padding: 18px;
+        border-radius: 8px;
+        box-shadow: 0 3px 10px rgba(46, 160, 67, 0.2);
+        border: 2px solid #2ea043;
+        transition: all 0.3s ease;
+    }
+    .stMetric:hover {
+        border-color: #3fb950;
+        box-shadow: 0 5px 15px rgba(63, 185, 80, 0.4);
+        transform: translateY(-2px);
     }
     .stMetric label {
-        color: #c9d1d9 !important;
-        font-weight: 600;
-        font-size: 1.1rem !important;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
+        color: #8b949e !important;
+        font-weight: 700 !important;
+        font-size: 0.85rem !important;
+        text-transform: uppercase !important;
+        letter-spacing: 1.2px !important;
+        margin-bottom: 8px !important;
     }
     .stMetric [data-testid="stMetricValue"] {
         color: #3fb950 !important;
-        font-size: 2.8rem !important;
-        font-weight: bold !important;
-        text-shadow: 0 2px 8px rgba(63, 185, 80, 0.4);
+        font-size: 2.4rem !important;
+        font-weight: 900 !important;
+        text-shadow: 0 2px 8px rgba(63, 185, 80, 0.5);
+        font-family: 'Arial Black', sans-serif !important;
     }
     
-    /* Títulos estilo betting */
+    /* ========== TÍTULOS ESTILO BETTING ========== */
     h1 {
-        color: #f0b90b;
+        color: #f0b90b !important;
         text-align: center;
-        font-weight: bold;
-        font-size: 3.2rem !important;
-        text-shadow: 0 3px 12px rgba(240, 185, 11, 0.5);
-        margin-bottom: 2rem !important;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-    }
-    h2, h3 {
-        color: #f0b90b;
-        font-weight: bold;
-        font-size: 1.8rem !important;
-        text-shadow: 0 2px 6px rgba(240, 185, 11, 0.3);
-        text-transform: uppercase;
-        letter-spacing: 1px;
+        font-weight: 900 !important;
+        font-size: 2.8rem !important;
+        text-shadow: 0 3px 15px rgba(240, 185, 11, 0.6);
+        margin-bottom: 1.5rem !important;
+        text-transform: uppercase !important;
+        letter-spacing: 3px !important;
+        border-bottom: 3px solid #2ea043;
+        padding-bottom: 15px;
     }
     
-    /* Texto general */
+    h2, h3 {
+        color: #f0b90b !important;
+        font-weight: 800 !important;
+        font-size: 1.6rem !important;
+        text-shadow: 0 2px 8px rgba(240, 185, 11, 0.4);
+        text-transform: uppercase !important;
+        letter-spacing: 2px !important;
+        margin-top: 2rem !important;
+        margin-bottom: 1rem !important;
+        padding-left: 12px;
+        border-left: 4px solid #3fb950;
+    }
+    
+    /* ========== TEXTO GENERAL ========== */
     p, div, span, label {
         color: #c9d1d9 !important;
-        font-size: 1.05rem !important;
+        font-size: 1rem !important;
+        line-height: 1.6 !important;
     }
+    
     .stMarkdown {
         color: #c9d1d9 !important;
     }
     
-    /* Sidebar estilo betting */
+    /* ========== SIDEBAR ESTILO BETTING ========== */
     [data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #0a0e14 0%, #000000 100%);
-        border-right: 2px solid #2ea043;
+        background: linear-gradient(180deg, #0a0f0a 0%, #000000 100%) !important;
+        border-right: 3px solid #2ea043 !important;
     }
     
-    /* Botones estilo casa de apuestas */
+    [data-testid="stSidebar"] h1, 
+    [data-testid="stSidebar"] h2, 
+    [data-testid="stSidebar"] h3 {
+        color: #3fb950 !important;
+    }
+    
+    /* ========== BOTONES ESTILO APOSTAR ========== */
     .stButton > button {
-        background: linear-gradient(135deg, #3fb950 0%, #2ea043 100%);
-        color: #ffffff;
-        font-weight: bold;
-        border: none;
-        border-radius: 6px;
-        padding: 14px 28px;
-        font-size: 1.1rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        box-shadow: 0 4px 12px rgba(63, 185, 80, 0.4);
-        transition: all 0.3s ease;
+        background: linear-gradient(135deg, #3fb950 0%, #2ea043 100%) !important;
+        color: #000000 !important;
+        font-weight: 900 !important;
+        border: none !important;
+        border-radius: 8px !important;
+        padding: 16px 32px !important;
+        font-size: 1.1rem !important;
+        text-transform: uppercase !important;
+        letter-spacing: 1.5px !important;
+        box-shadow: 0 4px 15px rgba(63, 185, 80, 0.5) !important;
+        transition: all 0.3s ease !important;
     }
     .stButton > button:hover {
-        background: linear-gradient(135deg, #2ea043 0%, #238636 100%);
-        box-shadow: 0 6px 16px rgba(63, 185, 80, 0.6);
-        transform: translateY(-2px);
+        background: linear-gradient(135deg, #2ea043 0%, #238636 100%) !important;
+        box-shadow: 0 6px 20px rgba(63, 185, 80, 0.7) !important;
+        transform: translateY(-3px) !important;
     }
     
-    /* Selectbox y inputs */
+    /* ========== INPUTS Y SELECTORES ========== */
     .stSelectbox, .stTextInput {
-        background-color: #0a0e14;
-        border-radius: 6px;
-        border: 1px solid #30363d;
+        background-color: #0a0f0a !important;
+        border-radius: 8px !important;
     }
     
-    /* Expanders estilo betting */
-    .streamlit-expanderHeader {
-        background-color: #0a0e14 !important;
-        border-radius: 6px;
-        border: 1px solid #30363d !important;
+    .stSelectbox > div > div {
+        background-color: #0a0f0a !important;
+        border: 2px solid #30363d !important;
         color: #c9d1d9 !important;
-        font-weight: 600;
+    }
+    
+    /* ========== EXPANDERS ESTILO PARTIDOS ========== */
+    .streamlit-expanderHeader {
+        background: linear-gradient(135deg, #0f1419 0%, #0a0f0a 100%) !important;
+        border-radius: 8px !important;
+        border: 2px solid #30363d !important;
+        color: #c9d1d9 !important;
+        font-weight: 700 !important;
         font-size: 1.05rem !important;
+        padding: 12px 16px !important;
+        transition: all 0.3s ease !important;
     }
     .streamlit-expanderHeader:hover {
-        background-color: #0f1419 !important;
+        background: linear-gradient(135deg, #1a1f2e 0%, #0f1419 100%) !important;
         border-color: #3fb950 !important;
+        box-shadow: 0 3px 10px rgba(63, 185, 80, 0.3) !important;
     }
     
-    /* Tablas */
+    /* ========== TABLAS ESTILO ODDS ========== */
     .stDataFrame {
-        background-color: #0a0e14;
-        border-radius: 6px;
-        border: 1px solid #30363d;
+        background-color: #0a0f0a !important;
+        border-radius: 8px !important;
+        border: 2px solid #30363d !important;
     }
     
-    /* Alert boxes */
+    /* ========== ALERT BOXES ========== */
     .stAlert {
-        background-color: #0a0e14 !important;
-        border-left: 4px solid #3fb950 !important;
+        background-color: #0f1419 !important;
+        border-left: 5px solid #3fb950 !important;
         color: #c9d1d9 !important;
+        border-radius: 8px !important;
     }
     
-    /* Scrollbar estilo betting */
+    /* ========== SCROLLBAR VERDE ========== */
     ::-webkit-scrollbar {
-        width: 10px;
-        height: 10px;
+        width: 12px;
+        height: 12px;
     }
     ::-webkit-scrollbar-track {
         background: #000000;
     }
     ::-webkit-scrollbar-thumb {
-        background: #3fb950;
-        border-radius: 5px;
+        background: linear-gradient(180deg, #3fb950 0%, #2ea043 100%);
+        border-radius: 6px;
     }
     ::-webkit-scrollbar-thumb:hover {
-        background: #2ea043;
+        background: linear-gradient(180deg, #2ea043 0%, #238636 100%);
     }
     
-    /* Divisores */
+    /* ========== DIVISORES ========== */
     hr {
-        border-color: #30363d !important;
+        border: none !important;
+        border-top: 2px solid #2ea043 !important;
+        margin: 2rem 0 !important;
+    }
+    
+    /* ========== CAPTIONS Y TEXTOS PEQUEÑOS ========== */
+    .caption, small {
+        color: #8b949e !important;
+        font-size: 0.85rem !important;
+    }
+    
+    /* ========== GRÁFICOS PLOTLY ========== */
+    .js-plotly-plot {
+        border-radius: 8px !important;
+        border: 2px solid #30363d !important;
     }
     </style>
 """, unsafe_allow_html=True)
