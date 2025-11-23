@@ -19,6 +19,7 @@ class AuthManager:
         self.sheet = None
         self.users_cache = None
         
+        
     def connect(self):
         """Conecta con Google Sheets usando las credenciales."""
         if not os.path.exists(self.credentials_file):
