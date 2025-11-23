@@ -70,7 +70,7 @@ ligas = {
     
     # Europa - Otras Ligas
     "🇵🇹 Portugal - Primeira Liga": "https://www.livefutbol.com/competition/co123/portugal-primeira-liga/all-matches/",
-    "🇳🇱 Países Bajos - Eredivisie": "https://www.livefutbol.com/competition/co18/paises-bajos-eredivisie/all-matches/",
+    "🇳🇱 Países Bajos - Eredivisie": "https://www.livefutbol.com/competition/co37/paises-bajos-eredivisie/all-matches/",
     "🇧🇪 Bélgica - Pro League": "https://www.livefutbol.com/competition/co19/belgica-pro-league/all-matches/",
     "🇹🇷 Turquía - Süper Lig": "https://www.livefutbol.com/competition/co20/turquia-super-lig/all-matches/",
     "🇷🇺 Rusia - Premier League": "https://www.livefutbol.com/competition/co43/rusia-premier-league/all-matches/",
