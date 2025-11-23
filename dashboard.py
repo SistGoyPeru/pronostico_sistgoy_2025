@@ -71,58 +71,19 @@ ligas = {
     # Europa - Otras Ligas
     "🇵🇹 Portugal - Primeira Liga": "https://www.livefutbol.com/competition/co123/portugal-primeira-liga/all-matches/",
     "🇳🇱 Países Bajos - Eredivisie": "https://www.livefutbol.com/competition/co37/paises-bajos-eredivisie/all-matches/",
-    "🇧🇪 Bélgica - Pro League": "https://www.livefutbol.com/competition/co19/belgica-pro-league/all-matches/",
-    "🇹🇷 Turquía - Süper Lig": "https://www.livefutbol.com/competition/co20/turquia-super-lig/all-matches/",
-    "🇷🇺 Rusia - Premier League": "https://www.livefutbol.com/competition/co43/rusia-premier-league/all-matches/",
-    "🇺🇦 Ucrania - Premier League": "https://www.livefutbol.com/competition/co44/ucrania-premier-league/all-matches/",
-    "🇬🇷 Grecia - Super League": "https://www.livefutbol.com/competition/co45/grecia-super-league/all-matches/",
-    "🇦🇹 Austria - Bundesliga": "https://www.livefutbol.com/competition/co46/austria-bundesliga/all-matches/",
-    "🇨🇭 Suiza - Super League": "https://www.livefutbol.com/competition/co47/suiza-super-league/all-matches/",
-    "🇩🇰 Dinamarca - Superliga": "https://www.livefutbol.com/competition/co48/dinamarca-superliga/all-matches/",
-    "🇸🇪 Suecia - Allsvenskan": "https://www.livefutbol.com/competition/co49/suecia-allsvenskan/all-matches/",
-    "🇳🇴 Noruega - Eliteserien": "https://www.livefutbol.com/competition/co50/noruega-eliteserien/all-matches/",
-    "🇨🇿 República Checa - Liga": "https://www.livefutbol.com/competition/co51/republica-checa-liga/all-matches/",
-    "🇵🇱 Polonia - Ekstraklasa": "https://www.livefutbol.com/competition/co52/polonia-ekstraklasa/all-matches/",
-    "🇷🇴 Rumania - Liga 1": "https://www.livefutbol.com/competition/co53/rumania-liga-1/all-matches/",
-    "🇭🇷 Croacia - HNL": "https://www.livefutbol.com/competition/co54/croacia-hnl/all-matches/",
-    "🇷🇸 Serbia - SuperLiga": "https://www.livefutbol.com/competition/co55/serbia-superliga/all-matches/",
-    "🇸🇰 Eslovaquia - Fortuna Liga": "https://www.livefutbol.com/competition/co56/eslovaquia-fortuna-liga/all-matches/",
-    "🇸🇮 Eslovenia - PrvaLiga": "https://www.livefutbol.com/competition/co57/eslovenia-prvaliga/all-matches/",
-    "🇧🇬 Bulgaria - First League": "https://www.livefutbol.com/competition/co58/bulgaria-first-league/all-matches/",
-    
+    "🇧🇪 Bélgica - Pro League": "https://www.livefutbol.com/competition/co49/belgica-pro-league/all-matches/",
+   
     # América del Sur
-    "🇧🇷 Brasil - Serie A": "https://www.livefutbol.com/competition/co3/brasil-serie-a/all-matches/",
-    "🇧🇷 Brasil - Serie B": "https://www.livefutbol.com/competition/co4/brasil-serie-b/all-matches/",
-    "🇦🇷 Argentina - Liga Profesional": "https://www.livefutbol.com/competition/co5/argentina-liga-profesional/all-matches/",
-    "🇨🇴 Colombia - Primera A": "https://www.livefutbol.com/competition/co6/colombia-primera-a/all-matches/",
-    "🇨🇱 Chile - Primera División": "https://www.livefutbol.com/competition/co7/chile-primera-division/all-matches/",
-    "🇺🇾 Uruguay - Primera División": "https://www.livefutbol.com/competition/co59/uruguay-primera-division/all-matches/",
-    "🇪🇨 Ecuador - Serie A": "https://www.livefutbol.com/competition/co60/ecuador-serie-a/all-matches/",
+
     "🇵🇪 Perú - Primera División": "https://www.livefutbol.com/competition/co100/peru-primera-division/all-matches/",
-    "🇵🇾 Paraguay - Primera División": "https://www.livefutbol.com/competition/co61/paraguay-primera-division/all-matches/",
-    "🇧🇴 Bolivia - Primera División": "https://www.livefutbol.com/competition/co62/bolivia-primera-division/all-matches/",
-    "🇻🇪 Venezuela - Primera División": "https://www.livefutbol.com/competition/co63/venezuela-primera-division/all-matches/",
-    
+   
     # América del Norte y Central
-    "🇲🇽 México - Liga MX": "https://www.livefutbol.com/competition/co10/mexico-liga-mx/all-matches/",
-    "🇺🇸 USA - MLS": "https://www.livefutbol.com/competition/co64/usa-mls/all-matches/",
-    "🇨🇷 Costa Rica - Primera División": "https://www.livefutbol.com/competition/co65/costa-rica-primera-division/all-matches/",
-    "🇭🇳 Honduras - Liga Nacional": "https://www.livefutbol.com/competition/co66/honduras-liga-nacional/all-matches/",
-    "🇬🇹 Guatemala - Liga Nacional": "https://www.livefutbol.com/competition/co67/guatemala-liga-nacional/all-matches/",
     
     # Asia
-    "🇯🇵 Japón - J1 League": "https://www.livefutbol.com/competition/co68/japon-j1-league/all-matches/",
-    "🇰🇷 Corea del Sur - K League 1": "https://www.livefutbol.com/competition/co69/corea-del-sur-k-league-1/all-matches/",
-    "🇨🇳 China - Super League": "https://www.livefutbol.com/competition/co70/china-super-league/all-matches/",
-    "🇸🇦 Arabia Saudita - Pro League": "https://www.livefutbol.com/competition/co71/arabia-saudita-pro-league/all-matches/",
-    "🇦🇪 Emiratos Árabes - Pro League": "https://www.livefutbol.com/competition/co72/emiratos-arabes-pro-league/all-matches/",
-    "🇶🇦 Qatar - Stars League": "https://www.livefutbol.com/competition/co73/qatar-stars-league/all-matches/",
+   
     
     # África
-    "🇿🇦 Sudáfrica - Premier Division": "https://www.livefutbol.com/competition/co74/sudafrica-premier-division/all-matches/",
-    "🇪🇬 Egipto - Premier League": "https://www.livefutbol.com/competition/co75/egipto-premier-league/all-matches/",
-    "🇲🇦 Marruecos - Botola Pro": "https://www.livefutbol.com/competition/co76/marruecos-botola-pro/all-matches/",
-}
+   
 
 
 
