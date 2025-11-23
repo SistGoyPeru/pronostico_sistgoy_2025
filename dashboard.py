@@ -62,8 +62,8 @@ ligas = {
     "🇪🇸 España - Segunda División": "https://www.livefutbol.com/competition/co110/espana-segunda-division/all-matches/",
     "🇬🇧 Inglaterra - Premier League": "https://www.livefutbol.com/competition/co91/inglaterra-premier-league/all-matches/",
     "🇬🇧 Inglaterra - Championship": "https://www.livefutbol.com/competition/co20/inglaterra-championship/all-matches/",
-    "🇮🇹 Italia - Serie A": "https://www.livefutbol.com/competition/co11/italia-serie-a/all-matches/",
-    "🇮🇹 Italia - Serie B": "https://www.livefutbol.com/competition/co14/italia-serie-b/all-matches/",
+    "🇮🇹 Italia - Serie A": "https://www.livefutbol.com/competition/co111/italia-serie-a/all-matches/",
+    "🇮🇹 Italia - Serie B": "https://www.livefutbol.com/competition/co113/italia-serie-b/all-matches/",
     "🇫🇷 Francia - Ligue 1": "https://www.livefutbol.com/competition/co71/francia-ligue-1/all-matches/",
     "🇫🇷 Francia - Ligue 2": "https://www.livefutbol.com/competition/co15/francia-ligue-2/all-matches/",
     
