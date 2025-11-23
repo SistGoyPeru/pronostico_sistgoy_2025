@@ -1489,6 +1489,7 @@ if len(played_matches) > 0:
     import pandas as pd
     df_pandas = display_df.to_pandas()
     
+    
     # Función para colorear filas según total de goles
     def color_rows(row):
         total_goles = row['Total Goles']
