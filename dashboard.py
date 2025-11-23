@@ -17,15 +17,15 @@ st.markdown("""
     <style>
     /* Fondo oscuro estilo casa de apuestas */
     .main {
-        background-color: #0d1117;
+        background-color: #000000;
     }
     
     /* Tarjetas de métricas estilo betting */
     .stMetric {
-        background: linear-gradient(135deg, #1a1f2e 0%, #0d1117 100%);
+        background: linear-gradient(135deg, #0a0e14 0%, #000000 100%);
         padding: 20px;
         border-radius: 10px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
         border: 1px solid #2ea043;
     }
     .stMetric label {
@@ -73,7 +73,7 @@ st.markdown("""
     
     /* Sidebar estilo betting */
     [data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #161b22 0%, #0d1117 100%);
+        background: linear-gradient(180deg, #0a0e14 0%, #000000 100%);
         border-right: 2px solid #2ea043;
     }
     
@@ -99,14 +99,14 @@ st.markdown("""
     
     /* Selectbox y inputs */
     .stSelectbox, .stTextInput {
-        background-color: #161b22;
+        background-color: #0a0e14;
         border-radius: 6px;
         border: 1px solid #30363d;
     }
     
     /* Expanders estilo betting */
     .streamlit-expanderHeader {
-        background-color: #161b22 !important;
+        background-color: #0a0e14 !important;
         border-radius: 6px;
         border: 1px solid #30363d !important;
         color: #c9d1d9 !important;
@@ -114,20 +114,20 @@ st.markdown("""
         font-size: 1.05rem !important;
     }
     .streamlit-expanderHeader:hover {
-        background-color: #1a1f2e !important;
+        background-color: #0f1419 !important;
         border-color: #3fb950 !important;
     }
     
     /* Tablas */
     .stDataFrame {
-        background-color: #161b22;
+        background-color: #0a0e14;
         border-radius: 6px;
         border: 1px solid #30363d;
     }
     
     /* Alert boxes */
     .stAlert {
-        background-color: #161b22 !important;
+        background-color: #0a0e14 !important;
         border-left: 4px solid #3fb950 !important;
         color: #c9d1d9 !important;
     }
@@ -138,7 +138,7 @@ st.markdown("""
         height: 10px;
     }
     ::-webkit-scrollbar-track {
-        background: #0d1117;
+        background: #000000;
     }
     ::-webkit-scrollbar-thumb {
         background: #3fb950;
