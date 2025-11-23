@@ -287,6 +287,7 @@ st.markdown("""
             font-size: 1.4rem !important;
         }
         
+    
         .stMetric {
             padding: 15px !important;
         }
@@ -1499,3 +1500,4 @@ st.markdown(
     "<p style='text-align: center; color: #666;'>Dashboard de Pronósticos Deportivos | Datos actualizados en tiempo real</p>",
     unsafe_allow_html=True
 )
+    
