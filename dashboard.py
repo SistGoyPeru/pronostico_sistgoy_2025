@@ -1149,12 +1149,16 @@ if len(upcoming_matches) > 0:
                     best_pred_match = market_name
                     best_type_match = market_type
             
+            # Calcular cuota implícita
+            implied_odd = 100 / best_prob_match if best_prob_match > 0 else 0
+            
             # Guardar resumen del partido
             match_summaries.append({
                 "Hora": match_time,
                 "Partido": f"{home_team} vs {away_team}",
                 "Mejor Pronóstico": best_pred_match,
                 "Probabilidad": f"{best_prob_match:.1f}%",
+                "Cuota": f"{implied_odd:.2f}",
                 "Tipo": best_type_match,
                 "prob_val": best_prob_match  # Para colorear
             })
@@ -1175,8 +1179,8 @@ if len(upcoming_matches) > 0:
                 border_color = "#4fc3f7"
                 confidence = "ALTA"
                 confidence_icon = "🔵"
-            elif best_probability_date >= 50:
-                bg_color = "#3d3520"
+            elif best_probability_date >= 55:
+                bg_color = "#3e2723"
                 border_color = "#ffb74d"
                 confidence = "MEDIA"
                 confidence_icon = "🟡"
@@ -1225,8 +1229,6 @@ if len(upcoming_matches) > 0:
                 </div>
             </div>
             """, unsafe_allow_html=True)
-        
-
         
         # Mostrar tabla resumen de todos los partidos
         if match_summaries:
@@ -1277,6 +1279,7 @@ if len(upcoming_matches) > 0:
                     "Partido": st.column_config.TextColumn("⚽ Partido", width="large"),
                     "Mejor Pronóstico": st.column_config.TextColumn("💎 Mejor Opción", width="medium"),
                     "Probabilidad": st.column_config.TextColumn("📊 Prob.", width="small"),
+                    "Cuota": st.column_config.TextColumn("💰 Cuota", width="small"),
                     "Tipo": st.column_config.TextColumn("🏷️ Mercado", width="small"),
                     "prob_val": None  # Ocultar columna numérica usada para color
                 },
