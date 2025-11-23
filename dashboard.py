@@ -131,14 +131,39 @@ st.markdown("""
     
     /* ========== INPUTS Y SELECTORES ========== */
     .stSelectbox, .stTextInput {
-        background-color: #0a0f0a !important;
+        background-color: #000000 !important;
         border-radius: 8px !important;
     }
     
     .stSelectbox > div > div {
         background-color: #0a0f0a !important;
-        border: 2px solid #30363d !important;
+        border: 2px solid #2ea043 !important;
         color: #c9d1d9 !important;
+        font-weight: 600 !important;
+    }
+    
+    .stSelectbox label {
+        color: #f0b90b !important;
+        font-weight: 700 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 1px !important;
+        font-size: 0.95rem !important;
+    }
+    
+    /* Dropdown options */
+    [data-baseweb="select"] > div {
+        background-color: #0a0f0a !important;
+        border: 2px solid #2ea043 !important;
+    }
+    
+    [role="option"] {
+        background-color: #0a0f0a !important;
+        color: #c9d1d9 !important;
+    }
+    
+    [role="option"]:hover {
+        background-color: #1a1f2e !important;
+        color: #3fb950 !important;
     }
     
     /* ========== EXPANDERS ESTILO PARTIDOS ========== */
