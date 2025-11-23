@@ -4,6 +4,91 @@ import plotly.graph_objects as go
 import plotly.express as px
 from extract_calendar import CalendarExtractor, StatisticsCalculator
 from league_manager import LeagueManager
+import auth_manager
+
+# --- GESTIÓN DE SESIÓN Y LOGIN ---
+# Inicializar estado de sesión
+if 'logged_in' not in st.session_state:
+    st.session_state.logged_in = False
+if 'username' not in st.session_state:
+    st.session_state.username = None
+
+def login_page():
+    st.markdown("""
+    <style>
+        .stTextInput > div > div > input {
+            background-color: #1a1d29;
+            color: white;
+            border: 1px solid #9333ea;
+        }
+        .stButton > button {
+            width: 100%;
+            background-color: #9333ea;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+    
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        st.markdown("<h1 style='text-align: center; color: #9333ea;'>🔐 SistGoy Pronósticos</h1>", unsafe_allow_html=True)
+        
+        tab_login, tab_register = st.tabs(["Iniciar Sesión", "Registrarse"])
+        
+        auth = auth_manager.AuthManager()
+        
+        with tab_login:
+            username = st.text_input("Usuario", key="login_user")
+            password = st.text_input("Contraseña", type="password", key="login_pass")
+            
+            if st.button("Entrar"):
+                if not username or not password:
+                    st.warning("Por favor ingrese usuario y contraseña")
+                else:
+                    success, msg = auth.connect()
+                    if not success:
+                        st.error(f"Error de conexión: {msg}")
+                        st.info("⚠️ Asegúrate de haber configurado 'credentials.json' y la hoja de cálculo.")
+                    else:
+                        valid, name = auth.validate_login(username, password)
+                        if valid:
+                            st.session_state.logged_in = True
+                            st.session_state.username = name
+                            st.success(f"¡Bienvenido {name}!")
+                            st.rerun()
+                        else:
+                            st.error("Usuario o contraseña incorrectos")
+
+        with tab_register:
+            new_user = st.text_input("Nuevo Usuario", key="reg_user")
+            new_pass = st.text_input("Contraseña", type="password", key="reg_pass")
+            new_email = st.text_input("Email", key="reg_email")
+            new_name = st.text_input("Nombre Completo", key="reg_name")
+            
+            if st.button("Crear Cuenta"):
+                if not new_user or not new_pass:
+                    st.warning("Usuario y contraseña son obligatorios")
+                else:
+                    success, msg = auth.register_user(new_user, new_pass, new_email, new_name)
+                    if success:
+                        st.success("¡Cuenta creada! Ahora puedes iniciar sesión.")
+                    else:
+                        st.error(f"Error: {msg}")
+
+# Si no está logueado, mostrar login y detener ejecución
+if not st.session_state.logged_in:
+    login_page()
+    st.stop()
+
+# --- BARRA LATERAL (LOGOUT) ---
+with st.sidebar:
+    st.write(f"👤 **{st.session_state.username}**")
+    if st.button("Cerrar Sesión"):
+        st.session_state.logged_in = False
+        st.session_state.username = None
+        st.rerun()
+    st.markdown("---")
 
 # Configuración de la página
 st.set_page_config(
@@ -18,15 +103,6 @@ st.markdown("""
     <style>
     /* ========== FONDOS PRINCIPALES ========== */
     .main {
-        background-color: #000000 !important;
-    }
-    
-    .block-container {
-        background-color: #000000 !important;
-        padding-top: 2rem !important;
-    }
-    
-    .stApp {
         background-color: #000000 !important;
     }
     
