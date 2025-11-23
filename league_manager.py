@@ -13,33 +13,9 @@ class LeagueManager:
         """Crear archivo de configuración si no existe"""
         if not os.path.exists(self.config_file):
             default_leagues = {
-                "leagues": [
-                    {
-                        "id": "liga_esp",
-                        "name": "Liga Española",
-                        "url": "https://www.livefutbol.com/espana/laliga/calendario/"
-                    },
-                    {
-                        "id": "premier",
-                        "name": "Premier League",
-                        "url": "https://www.livefutbol.com/inglaterra/premier-league/calendario/"
-                    },
-                    {
-                        "id": "serie_a",
-                        "name": "Serie A",
-                        "url": "https://www.livefutbol.com/italia/serie-a/calendario/"
-                    },
-                    {
-                        "id": "bundesliga",
-                        "name": "Bundesliga",
-                        "url": "https://www.livefutbol.com/alemania/bundesliga/calendario/"
-                    },
-                    {
-                        "id": "ligue1",
-                        "name": "Ligue 1",
-                        "url": "https://www.livefutbol.com/francia/ligue-1/calendario/"
-                    }
-                ]
+                
+                  
+                
             }
             self._save_config(default_leagues)
     
