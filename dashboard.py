@@ -3,6 +3,7 @@ import polars as pl
 import plotly.graph_objects as go
 import plotly.express as px
 from extract_calendar import CalendarExtractor, StatisticsCalculator
+from league_manager import LeagueManager
 
 # Configuración de la página
 st.set_page_config(
@@ -573,7 +574,11 @@ except:
 
 st.sidebar.header("🏆 Configuración")
 
-ligas = {
+# Inicializar gestor de ligas
+manager = LeagueManager()
+
+# Ligas por defecto (para asegurar que estén en el sistema)
+default_leagues = {
     # Europa - Top 5 Leagues
     "🇩🇪 Alemania - Bundesliga": "https://www.livefutbol.com/competition/co12/alemania-bundesliga/all-matches/",
     "🇩🇪 Alemania - 2. Bundesliga": "https://www.livefutbol.com/competition/co3/alemania-2-bundesliga/all-matches/",
@@ -595,24 +600,59 @@ ligas = {
     "🇧🇪 Bélgica - Pro League": "https://www.livefutbol.com/competition/co49/belgica-pro-league/all-matches/",
    
     # América del Sur
-
     "🇵🇪 Perú - Primera División": "https://www.livefutbol.com/competition/co100/peru-primera-division/all-matches/",
-   
-    # América del Norte y Central
-    
-    # Asia
-   
-    
-    # África
 }
-   
 
+# Migrar ligas por defecto si no existen
+for name, url in default_leagues.items():
+    manager.add_league(name, url)
 
+# Obtener todas las ligas actualizadas
+ligas = manager.get_leagues_dict()
 
+# Sección de Gestión de Ligas
+with st.sidebar.expander("⚙️ Gestionar Ligas", expanded=False):
+    tab1, tab2 = st.tabs(["Agregar", "Eliminar"])
+    
+    with tab1:
+        st.markdown("##### Agregar Nueva Liga")
+        new_league_name = st.text_input("Nombre de la Liga", placeholder="Ej: 🇧🇷 Brasil - Serie A")
+        new_league_url = st.text_input("URL (livefutbol.com)", placeholder="https://www.livefutbol.com/...")
+        
+        if st.button("💾 Guardar Liga", use_container_width=True):
+            if new_league_name and new_league_url:
+                if "livefutbol.com" in new_league_url:
+                    if manager.add_league(new_league_name, new_league_url):
+                        st.success(f"Liga '{new_league_name}' agregada!")
+                        st.rerun()
+                    else:
+                        st.error("Error: La liga ya existe o hubo un problema.")
+                else:
+                    st.error("La URL debe ser de livefutbol.com")
+            else:
+                st.warning("Completa todos los campos")
+                
+    with tab2:
+        st.markdown("##### Eliminar Liga")
+        league_to_delete = st.selectbox("Seleccionar para eliminar", options=list(ligas.keys()))
+        
+        if st.button("🗑️ Eliminar Seleccionada", type="primary", use_container_width=True):
+            # Encontrar ID de la liga seleccionada
+            leagues_list = manager.get_all_leagues()
+            league_id = next((l['id'] for l in leagues_list if l['name'] == league_to_delete), None)
+            
+            if league_id:
+                if manager.delete_league(league_id):
+                    st.success(f"Liga '{league_to_delete}' eliminada!")
+                    st.rerun()
+                else:
+                    st.error("Error al eliminar la liga")
+
+# Selector principal de ligas
 liga_seleccionada = st.sidebar.selectbox(
     "Selecciona una liga:",
     options=list(ligas.keys()),
-    index=1  # Bundesliga por defecto
+    index=0 if list(ligas.keys()) else None
 )
 
 # Botón para cargar datos
