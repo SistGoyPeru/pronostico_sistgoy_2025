@@ -12,7 +12,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Estilos personalizados - Diseño Completo Casa de Apuestas
+# Estilos personalizados - Diseño Completo Casa de Apuestas - Tema Morado
 st.markdown("""
     <style>
     /* ========== FONDOS PRINCIPALES ========== */
@@ -31,16 +31,16 @@ st.markdown("""
     
     /* ========== TARJETAS DE MÉTRICAS ESTILO CUOTAS ========== */
     .stMetric {
-        background: linear-gradient(135deg, #1a1f1a 0%, #0a0f0a 100%);
+        background: linear-gradient(135deg, #1a0f1f 0%, #0a050f 100%);
         padding: 18px;
         border-radius: 8px;
-        box-shadow: 0 3px 10px rgba(46, 160, 67, 0.2);
-        border: 2px solid #2ea043;
+        box-shadow: 0 3px 10px rgba(147, 51, 234, 0.3);
+        border: 2px solid #9333ea;
         transition: all 0.3s ease;
     }
     .stMetric:hover {
-        border-color: #3fb950;
-        box-shadow: 0 5px 15px rgba(63, 185, 80, 0.4);
+        border-color: #a855f7;
+        box-shadow: 0 5px 15px rgba(168, 85, 247, 0.5);
         transform: translateY(-2px);
     }
     .stMetric label {
@@ -52,10 +52,10 @@ st.markdown("""
         margin-bottom: 8px !important;
     }
     .stMetric [data-testid="stMetricValue"] {
-        color: #3fb950 !important;
+        color: #c084fc !important;
         font-size: 2.4rem !important;
         font-weight: 900 !important;
-        text-shadow: 0 2px 8px rgba(63, 185, 80, 0.5);
+        text-shadow: 0 2px 8px rgba(192, 132, 252, 0.6);
         font-family: 'Arial Black', sans-serif !important;
     }
     
@@ -69,7 +69,7 @@ st.markdown("""
         margin-bottom: 1.5rem !important;
         text-transform: uppercase !important;
         letter-spacing: 3px !important;
-        border-bottom: 3px solid #2ea043;
+        border-bottom: 3px solid #9333ea;
         padding-bottom: 15px;
     }
     
@@ -83,7 +83,7 @@ st.markdown("""
         margin-top: 2rem !important;
         margin-bottom: 1rem !important;
         padding-left: 12px;
-        border-left: 4px solid #3fb950;
+        border-left: 4px solid #a855f7;
     }
     
     /* ========== TEXTO GENERAL ========== */
