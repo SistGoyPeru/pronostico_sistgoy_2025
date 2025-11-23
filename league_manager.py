@@ -58,10 +58,12 @@ class LeagueManager:
             league_id = name.lower().replace(" ", "_").replace("á", "a").replace("é", "e")\
                            .replace("í", "i").replace("ó", "o").replace("ú", "u")
             
-            # Verificar si ya existe
+            # Verificar si ya existe por ID o por URL
             for league in config["leagues"]:
                 if league["id"] == league_id:
-                    return False  # Ya existe
+                    return False  # Ya existe por ID
+                if league.get("url") == url:
+                    return False  # Ya existe por URL
             
             # Agregar nueva liga
             new_league = {
