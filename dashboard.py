@@ -605,6 +605,7 @@ default_leagues = {
 
 # Migrar ligas por defecto si no existen
 for name, url in default_leagues.items():
+    
     manager.add_league(name, url)
 
 # Obtener todas las ligas actualizadas
