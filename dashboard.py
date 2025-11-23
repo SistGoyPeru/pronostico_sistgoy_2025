@@ -60,12 +60,13 @@ ligas = {
     "🇩🇪 Alemania - 2. Bundesliga": "https://www.livefutbol.com/competition/co3/alemania-2-bundesliga/all-matches/",
     "🇪🇸 España - La Liga": "https://www.livefutbol.com/competition/co97/espana-primera-division/all-matches/",
     "🇪🇸 España - Segunda División": "https://www.livefutbol.com/competition/co110/espana-segunda-division/all-matches/",
+    "🇪🇸 España - Liga Femenina": "https://www.livefutbol.com/competition/co2737/espana-mujeres-primera-division/all-matches/",
     "🇬🇧 Inglaterra - Premier League": "https://www.livefutbol.com/competition/co91/inglaterra-premier-league/all-matches/",
     "🇬🇧 Inglaterra - Championship": "https://www.livefutbol.com/competition/co20/inglaterra-championship/all-matches/",
     "🇮🇹 Italia - Serie A": "https://www.livefutbol.com/competition/co111/italia-serie-a/all-matches/",
     "🇮🇹 Italia - Serie B": "https://www.livefutbol.com/competition/co113/italia-serie-b/all-matches/",
     "🇫🇷 Francia - Ligue 1": "https://www.livefutbol.com/competition/co71/francia-ligue-1/all-matches/",
-    "🇫🇷 Francia - Ligue 2": "https://www.livefutbol.com/competition/co15/francia-ligue-2/all-matches/",
+    "🇫🇷 Francia - Ligue 2": "https://www.livefutbol.com/competition/co72/francia-ligue-2/all-matches/",
     
     # Europa - Otras Ligas
     "🇵🇹 Portugal - Primeira Liga": "https://www.livefutbol.com/competition/co17/portugal-primeira-liga/all-matches/",
