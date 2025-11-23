@@ -69,7 +69,7 @@ ligas = {
     "🇫🇷 Francia - Ligue 2": "https://www.livefutbol.com/competition/co72/francia-ligue-2/all-matches/",
     
     # Europa - Otras Ligas
-    "🇵🇹 Portugal - Primeira Liga": "https://www.livefutbol.com/competition/co17/portugal-primeira-liga/all-matches/",
+    "🇵🇹 Portugal - Primeira Liga": "https://www.livefutbol.com/competition/co123/portugal-primeira-liga/all-matches/",
     "🇳🇱 Países Bajos - Eredivisie": "https://www.livefutbol.com/competition/co18/paises-bajos-eredivisie/all-matches/",
     "🇧🇪 Bélgica - Pro League": "https://www.livefutbol.com/competition/co19/belgica-pro-league/all-matches/",
     "🇹🇷 Turquía - Süper Lig": "https://www.livefutbol.com/competition/co20/turquia-super-lig/all-matches/",
@@ -812,7 +812,7 @@ if len(upcoming_matches) > 0:
                 
                 # Tabla de probabilidades
                 st.markdown("**📈 Tabla de Probabilidades:**")
-                
+
                 prob_data = {
                     "Mercado": ["Más de 1.5", "Más de 2.5", "Más de 3.5", "Menos de 3.5", "BTTS"],
                     "Probabilidad": [
