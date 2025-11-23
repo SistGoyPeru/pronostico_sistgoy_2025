@@ -12,124 +12,145 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Estilos personalizados - Fondo oscuro para máxima legibilidad
+# Estilos personalizados - Estilo Casa de Apuestas Profesional
 st.markdown("""
     <style>
-    /* Fondo principal negro */
+    /* Fondo oscuro estilo casa de apuestas */
     .main {
-        background-color: #000000;
+        background-color: #0d1117;
     }
     
-    /* Tarjetas de métricas con fondo muy oscuro */
+    /* Tarjetas de métricas estilo betting */
     .stMetric {
-        background: linear-gradient(135deg, #0a0e14 0%, #050709 100%);
+        background: linear-gradient(135deg, #1a1f2e 0%, #0d1117 100%);
         padding: 20px;
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
-        border: 1px solid rgba(100, 181, 246, 0.3);
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+        border: 1px solid #2ea043;
     }
     .stMetric label {
-        color: #ffffff !important;
+        color: #c9d1d9 !important;
         font-weight: 600;
-        font-size: 1.15rem !important;
-        text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+        font-size: 1.1rem !important;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
     }
     .stMetric [data-testid="stMetricValue"] {
-        color: #64b5f6 !important;
+        color: #3fb950 !important;
         font-size: 2.8rem !important;
         font-weight: bold !important;
-        text-shadow: 0 2px 6px rgba(100, 181, 246, 0.5);
+        text-shadow: 0 2px 8px rgba(63, 185, 80, 0.4);
     }
     
-    /* Títulos con máxima visibilidad */
+    /* Títulos estilo betting */
     h1 {
-        color: #64b5f6;
+        color: #f0b90b;
         text-align: center;
         font-weight: bold;
         font-size: 3.2rem !important;
-        text-shadow: 0 3px 10px rgba(100, 181, 246, 0.5);
+        text-shadow: 0 3px 12px rgba(240, 185, 11, 0.5);
         margin-bottom: 2rem !important;
+        text-transform: uppercase;
+        letter-spacing: 2px;
     }
     h2, h3 {
-        color: #ffffff;
+        color: #f0b90b;
         font-weight: bold;
-        font-size: 1.9rem !important;
-        text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+        font-size: 1.8rem !important;
+        text-shadow: 0 2px 6px rgba(240, 185, 11, 0.3);
+        text-transform: uppercase;
+        letter-spacing: 1px;
     }
     
-    /* Texto general blanco puro */
+    /* Texto general */
     p, div, span, label {
-        color: #ffffff !important;
-        font-size: 1.1rem !important;
+        color: #c9d1d9 !important;
+        font-size: 1.05rem !important;
     }
     .stMarkdown {
-        color: #ffffff !important;
+        color: #c9d1d9 !important;
     }
     
-    /* Sidebar negro */
+    /* Sidebar estilo betting */
     [data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #0a0e14 0%, #000000 100%);
+        background: linear-gradient(180deg, #161b22 0%, #0d1117 100%);
+        border-right: 2px solid #2ea043;
     }
     
-    /* Botones brillantes sobre fondo oscuro */
+    /* Botones estilo casa de apuestas */
     .stButton > button {
-        background: linear-gradient(135deg, #64b5f6 0%, #42a5f5 100%);
-        color: #000000;
+        background: linear-gradient(135deg, #3fb950 0%, #2ea043 100%);
+        color: #ffffff;
         font-weight: bold;
         border: none;
-        border-radius: 8px;
+        border-radius: 6px;
         padding: 14px 28px;
         font-size: 1.1rem;
-        box-shadow: 0 4px 12px rgba(100, 181, 246, 0.5);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        box-shadow: 0 4px 12px rgba(63, 185, 80, 0.4);
         transition: all 0.3s ease;
     }
     .stButton > button:hover {
-        background: linear-gradient(135deg, #42a5f5 0%, #2196f3 100%);
-        box-shadow: 0 6px 16px rgba(100, 181, 246, 0.7);
+        background: linear-gradient(135deg, #2ea043 0%, #238636 100%);
+        box-shadow: 0 6px 16px rgba(63, 185, 80, 0.6);
         transform: translateY(-2px);
     }
     
-    /* Selectbox y inputs oscuros */
+    /* Selectbox y inputs */
     .stSelectbox, .stTextInput {
-        background-color: #0a0e14;
-        border-radius: 8px;
+        background-color: #161b22;
+        border-radius: 6px;
+        border: 1px solid #30363d;
     }
     
-    /* Expanders oscuros con texto blanco */
+    /* Expanders estilo betting */
     .streamlit-expanderHeader {
-        background-color: #0a0e14 !important;
-        border-radius: 8px;
-        color: #ffffff !important;
+        background-color: #161b22 !important;
+        border-radius: 6px;
+        border: 1px solid #30363d !important;
+        color: #c9d1d9 !important;
         font-weight: 600;
-        font-size: 1.1rem !important;
+        font-size: 1.05rem !important;
+    }
+    .streamlit-expanderHeader:hover {
+        background-color: #1a1f2e !important;
+        border-color: #3fb950 !important;
     }
     
-    /* Tablas oscuras */
+    /* Tablas */
     .stDataFrame {
-        background-color: #0a0e14;
-        border-radius: 8px;
+        background-color: #161b22;
+        border-radius: 6px;
+        border: 1px solid #30363d;
     }
     
-    /* Info/Success/Warning/Error boxes oscuros */
+    /* Alert boxes */
     .stAlert {
-        background-color: #0a0e14 !important;
-        color: #ffffff !important;
+        background-color: #161b22 !important;
+        border-left: 4px solid #3fb950 !important;
+        color: #c9d1d9 !important;
     }
     
-    /* Scrollbar visible en azul */
+    /* Scrollbar estilo betting */
     ::-webkit-scrollbar {
-        width: 12px;
-        height: 12px;
+        width: 10px;
+        height: 10px;
     }
     ::-webkit-scrollbar-track {
-        background: #000000;
+        background: #0d1117;
     }
     ::-webkit-scrollbar-thumb {
-        background: #64b5f6;
-        border-radius: 6px;
+        background: #3fb950;
+        border-radius: 5px;
     }
     ::-webkit-scrollbar-thumb:hover {
-        background: #42a5f5;
+        background: #2ea043;
+    }
+    
+    /* Divisores */
+    hr {
+        border-color: #30363d !important;
     }
     </style>
 """, unsafe_allow_html=True)
