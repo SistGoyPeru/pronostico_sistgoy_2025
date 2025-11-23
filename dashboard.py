@@ -12,33 +12,33 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Estilos personalizados - Máxima legibilidad
+# Estilos personalizados - Fondo oscuro para máxima legibilidad
 st.markdown("""
     <style>
-    /* Fondo principal con mejor contraste */
+    /* Fondo principal negro */
     .main {
-        background-color: #0f1419;
+        background-color: #000000;
     }
     
-    /* Tarjetas de métricas con excelente contraste */
+    /* Tarjetas de métricas con fondo muy oscuro */
     .stMetric {
-        background: linear-gradient(135deg, #1e2936 0%, #16202b 100%);
+        background: linear-gradient(135deg, #0a0e14 0%, #050709 100%);
         padding: 20px;
         border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-        border: 1px solid rgba(79, 195, 247, 0.2);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+        border: 1px solid rgba(100, 181, 246, 0.3);
     }
     .stMetric label {
         color: #ffffff !important;
         font-weight: 600;
         font-size: 1.15rem !important;
-        text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+        text-shadow: 0 1px 3px rgba(0,0,0,0.8);
     }
     .stMetric [data-testid="stMetricValue"] {
         color: #64b5f6 !important;
         font-size: 2.8rem !important;
         font-weight: bold !important;
-        text-shadow: 0 2px 6px rgba(100, 181, 246, 0.4);
+        text-shadow: 0 2px 6px rgba(100, 181, 246, 0.5);
     }
     
     /* Títulos con máxima visibilidad */
@@ -47,17 +47,17 @@ st.markdown("""
         text-align: center;
         font-weight: bold;
         font-size: 3.2rem !important;
-        text-shadow: 0 3px 10px rgba(100, 181, 246, 0.4);
+        text-shadow: 0 3px 10px rgba(100, 181, 246, 0.5);
         margin-bottom: 2rem !important;
     }
     h2, h3 {
         color: #ffffff;
         font-weight: bold;
         font-size: 1.9rem !important;
-        text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        text-shadow: 0 2px 4px rgba(0,0,0,0.8);
     }
     
-    /* Texto general con máximo contraste */
+    /* Texto general blanco puro */
     p, div, span, label {
         color: #ffffff !important;
         font-size: 1.1rem !important;
@@ -66,12 +66,12 @@ st.markdown("""
         color: #ffffff !important;
     }
     
-    /* Sidebar con mejor contraste */
+    /* Sidebar negro */
     [data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #16202b 0%, #0f1419 100%);
+        background: linear-gradient(180deg, #0a0e14 0%, #000000 100%);
     }
     
-    /* Botones más visibles */
+    /* Botones brillantes sobre fondo oscuro */
     .stButton > button {
         background: linear-gradient(135deg, #64b5f6 0%, #42a5f5 100%);
         color: #000000;
@@ -80,49 +80,49 @@ st.markdown("""
         border-radius: 8px;
         padding: 14px 28px;
         font-size: 1.1rem;
-        box-shadow: 0 4px 12px rgba(100, 181, 246, 0.4);
+        box-shadow: 0 4px 12px rgba(100, 181, 246, 0.5);
         transition: all 0.3s ease;
     }
     .stButton > button:hover {
         background: linear-gradient(135deg, #42a5f5 0%, #2196f3 100%);
-        box-shadow: 0 6px 16px rgba(100, 181, 246, 0.6);
+        box-shadow: 0 6px 16px rgba(100, 181, 246, 0.7);
         transform: translateY(-2px);
     }
     
-    /* Selectbox y inputs más legibles */
+    /* Selectbox y inputs oscuros */
     .stSelectbox, .stTextInput {
-        background-color: #1e2936;
+        background-color: #0a0e14;
         border-radius: 8px;
     }
     
-    /* Expanders con mejor contraste */
+    /* Expanders oscuros con texto blanco */
     .streamlit-expanderHeader {
-        background-color: #1e2936 !important;
+        background-color: #0a0e14 !important;
         border-radius: 8px;
         color: #ffffff !important;
         font-weight: 600;
         font-size: 1.1rem !important;
     }
     
-    /* Tablas más legibles */
+    /* Tablas oscuras */
     .stDataFrame {
-        background-color: #1e2936;
+        background-color: #0a0e14;
         border-radius: 8px;
     }
     
-    /* Info/Success/Warning/Error boxes más visibles */
+    /* Info/Success/Warning/Error boxes oscuros */
     .stAlert {
-        background-color: #1e2936 !important;
+        background-color: #0a0e14 !important;
         color: #ffffff !important;
     }
     
-    /* Scrollbar visible */
+    /* Scrollbar visible en azul */
     ::-webkit-scrollbar {
         width: 12px;
         height: 12px;
     }
     ::-webkit-scrollbar-track {
-        background: #0f1419;
+        background: #000000;
     }
     ::-webkit-scrollbar-thumb {
         background: #64b5f6;
