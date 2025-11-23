@@ -812,6 +812,7 @@ if len(upcoming_matches) > 0:
                 
                 # Tabla de probabilidades
                 st.markdown("**📈 Tabla de Probabilidades:**")
+                
                 prob_data = {
                     "Mercado": ["Más de 1.5", "Más de 2.5", "Más de 3.5", "Menos de 3.5", "BTTS"],
                     "Probabilidad": [
