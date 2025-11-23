@@ -1463,6 +1463,42 @@ if len(upcoming_matches) > 0:
                 elif pred_btts >= 55:
                     recommendations.append(("⚠️ AMBOS MARCAN (BTTS)", "warning", f"Probabilidad moderada ({pred_btts:.1f}%)"))
                 
+                # Botón para ver cuotas en Casino Barcelona
+                st.markdown("---")
+                st.markdown("### 💰 Comparar Cuotas")
+                
+                search_query = f"site:casinobarcelona.es apuestas {home_team} vs {away_team}"
+                search_url = f"https://www.google.com/search?q={search_query.replace(' ', '+')}"
+                
+                st.markdown(f"""
+                <a href="{search_url}" target="_blank" style="text-decoration: none;">
+                    <button style="
+                        background: linear-gradient(135deg, #e60000 0%, #cc0000 100%);
+                        color: white;
+                        border: none;
+                        padding: 12px 24px;
+                        border-radius: 8px;
+                        font-weight: 900;
+                        font-size: 1.1rem;
+                        cursor: pointer;
+                        width: 100%;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        box-shadow: 0 4px 15px rgba(230, 0, 0, 0.4);
+                        transition: all 0.3s ease;
+                        display: flex;
+                        align-items: center;
+                        justify_content: center;
+                        gap: 10px;
+                    ">
+                        🔍 Ver Cuotas en Casino Barcelona
+                    </button>
+                </a>
+                <p style="text-align: center; margin-top: 10px; font-size: 0.9rem; color: #8b949e;">
+                    *Abre una búsqueda directa para encontrar este partido rápidamente
+                </p>
+                """, unsafe_allow_html=True)
+                
                 if pred_over_15 >= 85:
                     recommendations.append(("✅ MÁS DE 1.5 GOLES", "success", f"Muy alta probabilidad ({pred_over_15:.1f}%)"))
                 
