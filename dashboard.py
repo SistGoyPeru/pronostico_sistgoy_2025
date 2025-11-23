@@ -198,6 +198,36 @@ st.markdown("""
         border-radius: 8px !important;
     }
     
+    /* ========== HEADER Y TOOLBAR ========== */
+    header[data-testid="stHeader"] {
+        background-color: #000000 !important;
+        border-bottom: 2px solid #2ea043 !important;
+    }
+    
+    /* Botón Share y otros botones del header */
+    button[kind="header"] {
+        background-color: #0a0f0a !important;
+        border: 2px solid #2ea043 !important;
+        color: #3fb950 !important;
+        border-radius: 6px !important;
+    }
+    
+    button[kind="header"]:hover {
+        background-color: #1a1f2e !important;
+        border-color: #3fb950 !important;
+        color: #3fb950 !important;
+    }
+    
+    /* Toolbar superior */
+    .stToolbar {
+        background-color: #000000 !important;
+    }
+    
+    [data-testid="stToolbar"] {
+        background-color: #000000 !important;
+    }
+    
+    
     /* ========== SCROLLBAR VERDE ========== */
     ::-webkit-scrollbar {
         width: 12px;
