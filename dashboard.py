@@ -1074,11 +1074,15 @@ if len(upcoming_matches) > 0:
         best_prediction_date = None
         best_market_date = None
         
+        # Lista para guardar el mejor pronóstico de cada partido
+        match_summaries = []
+        
         # Analizar todos los partidos de esta fecha para encontrar el mejor
         for i in range(len(date_matches)):
             match = date_matches[i]
             home_team = match["Local"][0]
             away_team = match["Visita"][0]
+            match_time = match["Hora"][0]
             
             # Calcular probabilidades 1X2
             h_win_pct = stats.team_home_percentage_wins(home_team)
@@ -1115,7 +1119,13 @@ if len(upcoming_matches) > 0:
                 (pred_btts, "Ambos Marcan (BTTS)", "BTTS", home_team, away_team, match),
             ]
             
+            # Encontrar la mejor opción para ESTE partido
+            best_prob_match = 0
+            best_pred_match = ""
+            best_type_match = ""
+            
             for prob, market_name, market_type, h_team, a_team, m in all_probabilities:
+                # Actualizar mejor del día
                 if prob > best_probability_date:
                     best_probability_date = prob
                     best_prediction_date = market_name
@@ -1132,6 +1142,22 @@ if len(upcoming_matches) > 0:
                         'prob_over25': pred_over_25,
                         'prob_btts': pred_btts
                     }
+                
+                # Actualizar mejor de ESTE partido
+                if prob > best_prob_match:
+                    best_prob_match = prob
+                    best_pred_match = market_name
+                    best_type_match = market_type
+            
+            # Guardar resumen del partido
+            match_summaries.append({
+                "Hora": match_time,
+                "Partido": f"{home_team} vs {away_team}",
+                "Mejor Pronóstico": best_pred_match,
+                "Probabilidad": f"{best_prob_match:.1f}%",
+                "Tipo": best_type_match,
+                "prob_val": best_prob_match  # Para colorear
+            })
         
         # Mostrar la mejor apuesta de la fecha
         if best_match_date:
@@ -1199,6 +1225,63 @@ if len(upcoming_matches) > 0:
                 </div>
             </div>
             """, unsafe_allow_html=True)
+        
+
+        
+        # Mostrar tabla resumen de todos los partidos
+        if match_summaries:
+            st.markdown("### 📊 Resumen de Pronósticos de la Fecha")
+            
+            # Crear DataFrame
+            import pandas as pd
+            df_summary = pd.DataFrame(match_summaries)
+            
+            # Función para colorear probabilidad
+            def color_prob(val):
+                if val >= 70:
+                    color = '#66bb6a' # Verde
+                    weight = 'bold'
+                elif val >= 55:
+                    color = '#ffa726' # Naranja
+                    weight = 'bold'
+                else:
+                    color = '#ef5350' # Rojo
+                    weight = 'normal'
+                return f'color: {color}; font-weight: {weight}'
+            
+            # Estilizar tabla
+            st.dataframe(
+                df_summary.style
+                .map(color_prob, subset=['prob_val'])
+                .format({'prob_val': '{:.1f}%'})
+                .set_properties(**{
+                    'background-color': '#0a050f',
+                    'color': '#ffffff',
+                    'border-color': '#9333ea'
+                })
+                .set_table_styles([
+                    {'selector': 'th', 'props': [
+                        ('background-color', '#1a0f2e'),
+                        ('color', '#a855f7'),
+                        ('font-weight', 'bold'),
+                        ('border-bottom', '2px solid #9333ea')
+                    ]},
+                    {'selector': 'td', 'props': [
+                        ('padding', '10px'),
+                        ('border-bottom', '1px solid #30363d')
+                    ]}
+                ]),
+                use_container_width=True,
+                column_config={
+                    "Hora": st.column_config.TextColumn("⏰ Hora", width="small"),
+                    "Partido": st.column_config.TextColumn("⚽ Partido", width="large"),
+                    "Mejor Pronóstico": st.column_config.TextColumn("💎 Mejor Opción", width="medium"),
+                    "Probabilidad": st.column_config.TextColumn("📊 Prob.", width="small"),
+                    "Tipo": st.column_config.TextColumn("🏷️ Mercado", width="small"),
+                    "prob_val": None  # Ocultar columna numérica usada para color
+                },
+                hide_index=True
+            )
         
         st.markdown("---")
         st.markdown("### 📋 Todos los Partidos de la Fecha")
