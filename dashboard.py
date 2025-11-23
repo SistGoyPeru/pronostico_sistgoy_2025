@@ -12,116 +12,124 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Estilos personalizados - Paleta de colores profesional y cómoda
+# Estilos personalizados - Máxima legibilidad
 st.markdown("""
     <style>
-    /* Fondo principal más suave */
+    /* Fondo principal con mejor contraste */
     .main {
-        background-color: #1a1f2e;
+        background-color: #0f1419;
     }
     
-    /* Tarjetas de métricas con mejor contraste */
+    /* Tarjetas de métricas con excelente contraste */
     .stMetric {
-        background: linear-gradient(135deg, #2a3f5f 0%, #1e2d3d 100%);
+        background: linear-gradient(135deg, #1e2936 0%, #16202b 100%);
         padding: 20px;
         border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-        border: 1px solid rgba(100, 200, 255, 0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        border: 1px solid rgba(79, 195, 247, 0.2);
     }
     .stMetric label {
-        color: #e8f4f8 !important;
+        color: #ffffff !important;
         font-weight: 600;
-        font-size: 1.1rem !important;
-        text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+        font-size: 1.15rem !important;
+        text-shadow: 0 1px 3px rgba(0,0,0,0.5);
     }
     .stMetric [data-testid="stMetricValue"] {
-        color: #4fc3f7 !important;
-        font-size: 2.5rem !important;
+        color: #64b5f6 !important;
+        font-size: 2.8rem !important;
         font-weight: bold !important;
-        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        text-shadow: 0 2px 6px rgba(100, 181, 246, 0.4);
     }
     
-    /* Títulos con mejor jerarquía visual */
+    /* Títulos con máxima visibilidad */
     h1 {
-        color: #4fc3f7;
+        color: #64b5f6;
         text-align: center;
         font-weight: bold;
-        font-size: 3rem !important;
-        text-shadow: 0 2px 8px rgba(79, 195, 247, 0.3);
+        font-size: 3.2rem !important;
+        text-shadow: 0 3px 10px rgba(100, 181, 246, 0.4);
         margin-bottom: 2rem !important;
     }
     h2, h3 {
-        color: #e8f4f8;
+        color: #ffffff;
         font-weight: bold;
-        font-size: 1.8rem !important;
-        text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        font-size: 1.9rem !important;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.5);
     }
     
-    /* Texto general más legible */
+    /* Texto general con máximo contraste */
     p, div, span, label {
-        color: #e8f4f8 !important;
-        font-size: 1.05rem !important;
+        color: #ffffff !important;
+        font-size: 1.1rem !important;
     }
     .stMarkdown {
-        color: #e8f4f8 !important;
+        color: #ffffff !important;
     }
     
-    /* Sidebar con mejor estilo */
+    /* Sidebar con mejor contraste */
     [data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #1e2d3d 0%, #1a1f2e 100%);
+        background: linear-gradient(180deg, #16202b 0%, #0f1419 100%);
     }
     
-    /* Botones más atractivos */
+    /* Botones más visibles */
     .stButton > button {
-        background: linear-gradient(135deg, #4fc3f7 0%, #2196f3 100%);
-        color: #ffffff;
+        background: linear-gradient(135deg, #64b5f6 0%, #42a5f5 100%);
+        color: #000000;
         font-weight: bold;
         border: none;
         border-radius: 8px;
-        padding: 12px 24px;
-        box-shadow: 0 4px 8px rgba(79, 195, 247, 0.3);
+        padding: 14px 28px;
+        font-size: 1.1rem;
+        box-shadow: 0 4px 12px rgba(100, 181, 246, 0.4);
         transition: all 0.3s ease;
     }
     .stButton > button:hover {
-        background: linear-gradient(135deg, #2196f3 0%, #1976d2 100%);
-        box-shadow: 0 6px 12px rgba(79, 195, 247, 0.5);
+        background: linear-gradient(135deg, #42a5f5 0%, #2196f3 100%);
+        box-shadow: 0 6px 16px rgba(100, 181, 246, 0.6);
         transform: translateY(-2px);
     }
     
-    /* Selectbox y inputs más elegantes */
+    /* Selectbox y inputs más legibles */
     .stSelectbox, .stTextInput {
-        background-color: #2a3f5f;
+        background-color: #1e2936;
         border-radius: 8px;
     }
     
-    /* Expanders con mejor diseño */
+    /* Expanders con mejor contraste */
     .streamlit-expanderHeader {
-        background-color: #2a3f5f;
+        background-color: #1e2936 !important;
         border-radius: 8px;
-        color: #e8f4f8 !important;
+        color: #ffffff !important;
         font-weight: 600;
+        font-size: 1.1rem !important;
     }
     
     /* Tablas más legibles */
     .stDataFrame {
-        background-color: #2a3f5f;
+        background-color: #1e2936;
         border-radius: 8px;
     }
     
-    /* Scrollbar personalizado */
+    /* Info/Success/Warning/Error boxes más visibles */
+    .stAlert {
+        background-color: #1e2936 !important;
+        color: #ffffff !important;
+    }
+    
+    /* Scrollbar visible */
     ::-webkit-scrollbar {
-        width: 10px;
-        height: 10px;
+        width: 12px;
+        height: 12px;
     }
     ::-webkit-scrollbar-track {
-        background: #1a1f2e;
+        background: #0f1419;
     }
     ::-webkit-scrollbar-thumb {
-        background: #4fc3f7;
-        border-radius: 5px;
+        background: #64b5f6;
+        border-radius: 6px;
     }
     ::-webkit-scrollbar-thumb:hover {
-        background: #2196f3;
+        background: #42a5f5;
     }
     </style>
 """, unsafe_allow_html=True)
