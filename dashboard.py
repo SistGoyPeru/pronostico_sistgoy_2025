@@ -15,9 +15,18 @@ st.set_page_config(
 # Estilos personalizados - Estilo Casa de Apuestas Profesional
 st.markdown("""
     <style>
-    /* Fondo oscuro estilo casa de apuestas */
+    /* Fondo oscuro estilo casa de apuestas - NEGRO TOTAL */
     .main {
-        background-color: #000000;
+        background-color: #000000 !important;
+    }
+    
+    /* Asegurar que todos los contenedores sean negros */
+    .block-container {
+        background-color: #000000 !important;
+    }
+    
+    .stApp {
+        background-color: #000000 !important;
     }
     
     /* Tarjetas de métricas estilo betting */
