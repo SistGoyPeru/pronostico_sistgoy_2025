@@ -1,0 +1,381 @@
+Jornada,Fecha,Hora,Local,Visita,GA,GC
+1. Jornada,2025-08-15,19:00,Liverpool FC,AFC Bournemouth,4,2
+1. Jornada,2025-08-16,11:30,Aston Villa,Newcastle United,0,0
+1. Jornada,2025-08-16,14:00,Brighton & Hove Albion,Fulham FC,1,1
+1. Jornada,2025-08-16,14:00,Sunderland AFC,West Ham United,3,0
+1. Jornada,2025-08-16,14:00,Tottenham Hotspur,Burnley FC,3,0
+1. Jornada,2025-08-16,16:30,Wolverhampton Wanderers,Manchester City,0,4
+1. Jornada,2025-08-17,13:00,Nottingham Forest,Brentford FC,3,1
+1. Jornada,2025-08-17,13:00,Chelsea FC,Crystal Palace,0,0
+1. Jornada,2025-08-17,15:30,Manchester United,Arsenal FC,0,1
+1. Jornada,2025-08-18,19:00,Leeds United,Everton FC,1,0
+2. Jornada,2025-08-22,19:00,West Ham United,Chelsea FC,1,5
+2. Jornada,2025-08-23,11:30,Manchester City,Tottenham Hotspur,0,2
+2. Jornada,2025-08-23,14:00,AFC Bournemouth,Wolverhampton Wanderers,1,0
+2. Jornada,2025-08-23,14:00,Brentford FC,Aston Villa,1,0
+2. Jornada,2025-08-23,14:00,Burnley FC,Sunderland AFC,2,0
+2. Jornada,2025-08-23,16:30,Arsenal FC,Leeds United,5,0
+2. Jornada,2025-08-24,13:00,Crystal Palace,Nottingham Forest,1,1
+2. Jornada,2025-08-24,13:00,Everton FC,Brighton & Hove Albion,2,0
+2. Jornada,2025-08-24,15:30,Fulham FC,Manchester United,1,1
+2. Jornada,2025-08-25,19:00,Newcastle United,Liverpool FC,2,3
+3. Jornada,2025-08-30,11:30,Chelsea FC,Fulham FC,2,0
+3. Jornada,2025-08-30,14:00,Sunderland AFC,Brentford FC,2,1
+3. Jornada,2025-08-30,14:00,Manchester United,Burnley FC,3,2
+3. Jornada,2025-08-30,14:00,Tottenham Hotspur,AFC Bournemouth,0,1
+3. Jornada,2025-08-30,14:00,Wolverhampton Wanderers,Everton FC,2,3
+3. Jornada,2025-08-30,16:30,Leeds United,Newcastle United,0,0
+3. Jornada,2025-08-31,13:00,Brighton & Hove Albion,Manchester City,2,1
+3. Jornada,2025-08-31,13:00,Nottingham Forest,West Ham United,0,3
+3. Jornada,2025-08-31,15:30,Liverpool FC,Arsenal FC,1,0
+3. Jornada,2025-08-31,18:00,Aston Villa,Crystal Palace,0,3
+4. Jornada,2025-09-13,11:30,Arsenal FC,Nottingham Forest,3,0
+4. Jornada,2025-09-13,14:00,AFC Bournemouth,Brighton & Hove Albion,2,1
+4. Jornada,2025-09-13,14:00,Crystal Palace,Sunderland AFC,0,0
+4. Jornada,2025-09-13,14:00,Everton FC,Aston Villa,0,0
+4. Jornada,2025-09-13,14:00,Fulham FC,Leeds United,1,0
+4. Jornada,2025-09-13,14:00,Newcastle United,Wolverhampton Wanderers,1,0
+4. Jornada,2025-09-13,16:30,West Ham United,Tottenham Hotspur,0,3
+4. Jornada,2025-09-13,19:00,Brentford FC,Chelsea FC,2,2
+4. Jornada,2025-09-14,13:00,Burnley FC,Liverpool FC,0,1
+4. Jornada,2025-09-14,15:30,Manchester City,Manchester United,3,0
+5. Jornada,2025-09-20,11:30,Liverpool FC,Everton FC,2,1
+5. Jornada,2025-09-20,14:00,Brighton & Hove Albion,Tottenham Hotspur,2,2
+5. Jornada,2025-09-20,14:00,Burnley FC,Nottingham Forest,1,1
+5. Jornada,2025-09-20,14:00,West Ham United,Crystal Palace,1,2
+5. Jornada,2025-09-20,14:00,Wolverhampton Wanderers,Leeds United,1,3
+5. Jornada,2025-09-20,16:30,Manchester United,Chelsea FC,2,1
+5. Jornada,2025-09-20,19:00,Fulham FC,Brentford FC,3,1
+5. Jornada,2025-09-21,13:00,AFC Bournemouth,Newcastle United,0,0
+5. Jornada,2025-09-21,13:00,Sunderland AFC,Aston Villa,1,1
+5. Jornada,2025-09-21,15:30,Arsenal FC,Manchester City,1,1
+6. Jornada,2025-09-27,11:30,Brentford FC,Manchester United,3,1
+6. Jornada,2025-09-27,14:00,Crystal Palace,Liverpool FC,2,1
+6. Jornada,2025-09-27,14:00,Chelsea FC,Brighton & Hove Albion,1,3
+6. Jornada,2025-09-27,14:00,Leeds United,AFC Bournemouth,2,2
+6. Jornada,2025-09-27,14:00,Manchester City,Burnley FC,5,1
+6. Jornada,2025-09-27,16:30,Nottingham Forest,Sunderland AFC,0,1
+6. Jornada,2025-09-27,19:00,Tottenham Hotspur,Wolverhampton Wanderers,1,1
+6. Jornada,2025-09-28,13:00,Aston Villa,Fulham FC,3,1
+6. Jornada,2025-09-28,15:30,Newcastle United,Arsenal FC,1,2
+6. Jornada,2025-09-29,19:00,Everton FC,West Ham United,1,1
+7. Jornada,2025-10-03,19:00,AFC Bournemouth,Fulham FC,3,1
+7. Jornada,2025-10-04,11:30,Leeds United,Tottenham Hotspur,1,2
+7. Jornada,2025-10-04,14:00,Arsenal FC,West Ham United,2,0
+7. Jornada,2025-10-04,14:00,Manchester United,Sunderland AFC,2,0
+7. Jornada,2025-10-04,16:30,Chelsea FC,Liverpool FC,2,1
+7. Jornada,2025-10-05,13:00,Aston Villa,Burnley FC,2,1
+7. Jornada,2025-10-05,13:00,Everton FC,Crystal Palace,2,1
+7. Jornada,2025-10-05,13:00,Newcastle United,Nottingham Forest,2,0
+7. Jornada,2025-10-05,13:00,Wolverhampton Wanderers,Brighton & Hove Albion,1,1
+7. Jornada,2025-10-05,15:30,Brentford FC,Manchester City,0,1
+8. Jornada,2025-10-18,11:30,Nottingham Forest,Chelsea FC,0,3
+8. Jornada,2025-10-18,14:00,Sunderland AFC,Wolverhampton Wanderers,2,0
+8. Jornada,2025-10-18,14:00,Brighton & Hove Albion,Newcastle United,2,1
+8. Jornada,2025-10-18,14:00,Crystal Palace,AFC Bournemouth,3,3
+8. Jornada,2025-10-18,14:00,Burnley FC,Leeds United,2,0
+8. Jornada,2025-10-18,14:00,Manchester City,Everton FC,2,0
+8. Jornada,2025-10-18,16:30,Fulham FC,Arsenal FC,0,1
+8. Jornada,2025-10-19,13:00,Tottenham Hotspur,Aston Villa,1,2
+8. Jornada,2025-10-19,15:30,Liverpool FC,Manchester United,1,2
+8. Jornada,2025-10-20,19:00,West Ham United,Brentford FC,0,2
+9. Jornada,2025-10-24,19:00,Leeds United,West Ham United,2,1
+9. Jornada,2025-10-25,14:00,Chelsea FC,Sunderland AFC,1,2
+9. Jornada,2025-10-25,14:00,Newcastle United,Fulham FC,2,1
+9. Jornada,2025-10-25,16:30,Manchester United,Brighton & Hove Albion,4,2
+9. Jornada,2025-10-25,19:00,Brentford FC,Liverpool FC,3,2
+9. Jornada,2025-10-26,14:00,AFC Bournemouth,Nottingham Forest,2,0
+9. Jornada,2025-10-26,14:00,Aston Villa,Manchester City,1,0
+9. Jornada,2025-10-26,14:00,Arsenal FC,Crystal Palace,1,0
+9. Jornada,2025-10-26,14:00,Wolverhampton Wanderers,Burnley FC,2,3
+9. Jornada,2025-10-26,16:30,Everton FC,Tottenham Hotspur,0,3
+10. Jornada,2025-11-01,15:00,Brighton & Hove Albion,Leeds United,3,0
+10. Jornada,2025-11-01,15:00,Crystal Palace,Brentford FC,2,0
+10. Jornada,2025-11-01,15:00,Burnley FC,Arsenal FC,0,2
+10. Jornada,2025-11-01,15:00,Fulham FC,Wolverhampton Wanderers,3,0
+10. Jornada,2025-11-01,15:00,Nottingham Forest,Manchester United,2,2
+10. Jornada,2025-11-01,17:30,Tottenham Hotspur,Chelsea FC,0,1
+10. Jornada,2025-11-01,20:00,Liverpool FC,Aston Villa,2,0
+10. Jornada,2025-11-02,14:00,West Ham United,Newcastle United,3,1
+10. Jornada,2025-11-02,16:30,Manchester City,AFC Bournemouth,3,1
+10. Jornada,2025-11-03,20:00,Sunderland AFC,Everton FC,1,1
+11. Jornada,2025-11-08,12:30,Tottenham Hotspur,Manchester United,2,2
+11. Jornada,2025-11-08,15:00,Everton FC,Fulham FC,2,0
+11. Jornada,2025-11-08,15:00,West Ham United,Burnley FC,3,2
+11. Jornada,2025-11-08,17:30,Sunderland AFC,Arsenal FC,2,2
+11. Jornada,2025-11-08,20:00,Chelsea FC,Wolverhampton Wanderers,3,0
+11. Jornada,2025-11-09,14:00,Aston Villa,AFC Bournemouth,4,0
+11. Jornada,2025-11-09,14:00,Crystal Palace,Brighton & Hove Albion,0,0
+11. Jornada,2025-11-09,14:00,Brentford FC,Newcastle United,3,1
+11. Jornada,2025-11-09,14:00,Nottingham Forest,Leeds United,3,1
+11. Jornada,2025-11-09,16:30,Manchester City,Liverpool FC,3,0
+12. Jornada,2025-11-22,12:30,Burnley FC,Chelsea FC,0,2
+12. Jornada,2025-11-22,15:00,AFC Bournemouth,West Ham United,2,2
+12. Jornada,2025-11-22,15:00,Brighton & Hove Albion,Brentford FC,2,1
+12. Jornada,2025-11-22,15:00,Fulham FC,Sunderland AFC,1,0
+12. Jornada,2025-11-22,15:00,Liverpool FC,Nottingham Forest,0,3
+12. Jornada,2025-11-22,15:00,Wolverhampton Wanderers,Crystal Palace,0,2
+12. Jornada,2025-11-22,17:30,Newcastle United,Manchester City,2,1
+12. Jornada,2025-11-23,14:00,Leeds United,Aston Villa,1,2
+12. Jornada,2025-11-23,16:30,Arsenal FC,Tottenham Hotspur,4,1
+12. Jornada,2025-11-24,20:00,Manchester United,Everton FC,0,1
+13. Jornada,2025-11-29,15:00,Sunderland AFC,AFC Bournemouth,3,2
+13. Jornada,2025-11-29,15:00,Brentford FC,Burnley FC,3,1
+13. Jornada,2025-11-29,15:00,Manchester City,Leeds United,3,2
+13. Jornada,2025-11-29,17:30,Everton FC,Newcastle United,1,4
+13. Jornada,2025-11-29,20:00,Tottenham Hotspur,Fulham FC,1,2
+13. Jornada,2025-11-30,12:00,Crystal Palace,Manchester United,1,2
+13. Jornada,2025-11-30,14:05,Aston Villa,Wolverhampton Wanderers,0,0
+13. Jornada,2025-11-30,14:05,Nottingham Forest,Brighton & Hove Albion,0,0
+13. Jornada,2025-11-30,14:05,West Ham United,Liverpool FC,0,0
+13. Jornada,2025-11-30,16:30,Chelsea FC,Arsenal FC,,
+14. Jornada,2025-12-02,19:30,AFC Bournemouth,Everton FC,,
+14. Jornada,2025-12-02,19:30,Fulham FC,Manchester City,,
+14. Jornada,2025-12-02,20:15,Newcastle United,Tottenham Hotspur,,
+14. Jornada,2025-12-03,19:30,Brighton & Hove Albion,Aston Villa,,
+14. Jornada,2025-12-03,19:30,Arsenal FC,Brentford FC,,
+14. Jornada,2025-12-03,19:30,Burnley FC,Crystal Palace,,
+14. Jornada,2025-12-03,19:30,Wolverhampton Wanderers,Nottingham Forest,,
+14. Jornada,2025-12-03,20:15,Liverpool FC,Sunderland AFC,,
+14. Jornada,2025-12-03,20:15,Leeds United,Chelsea FC,,
+14. Jornada,2025-12-04,20:00,Manchester United,West Ham United,,
+15. Jornada,2025-12-06,12:30,Aston Villa,Arsenal FC,,
+15. Jornada,2025-12-06,15:00,AFC Bournemouth,Chelsea FC,,
+15. Jornada,2025-12-06,15:00,Everton FC,Nottingham Forest,,
+15. Jornada,2025-12-06,15:00,Manchester City,Sunderland AFC,,
+15. Jornada,2025-12-06,15:00,Newcastle United,Burnley FC,,
+15. Jornada,2025-12-06,15:00,Tottenham Hotspur,Brentford FC,,
+15. Jornada,2025-12-06,17:30,Leeds United,Liverpool FC,,
+15. Jornada,2025-12-07,14:00,Brighton & Hove Albion,West Ham United,,
+15. Jornada,2025-12-07,16:30,Fulham FC,Crystal Palace,,
+15. Jornada,2025-12-08,20:00,Wolverhampton Wanderers,Manchester United,,
+16. Jornada,2025-12-13,15:00,Chelsea FC,Everton FC,,
+16. Jornada,2025-12-13,15:00,Liverpool FC,Brighton & Hove Albion,,
+16. Jornada,2025-12-13,17:30,Burnley FC,Fulham FC,,
+16. Jornada,2025-12-13,20:00,Arsenal FC,Wolverhampton Wanderers,,
+16. Jornada,2025-12-14,14:00,Sunderland AFC,Newcastle United,,
+16. Jornada,2025-12-14,14:00,Crystal Palace,Manchester City,,
+16. Jornada,2025-12-14,14:00,Nottingham Forest,Tottenham Hotspur,,
+16. Jornada,2025-12-14,14:00,West Ham United,Aston Villa,,
+16. Jornada,2025-12-14,16:30,Brentford FC,Leeds United,,
+16. Jornada,2025-12-15,20:00,Manchester United,AFC Bournemouth,,
+17. Jornada,2025-12-20,12:30,Newcastle United,Chelsea FC,,
+17. Jornada,2025-12-20,15:00,AFC Bournemouth,Burnley FC,,
+17. Jornada,2025-12-20,15:00,Brighton & Hove Albion,Sunderland AFC,,
+17. Jornada,2025-12-20,15:00,Manchester City,West Ham United,,
+17. Jornada,2025-12-20,15:00,Wolverhampton Wanderers,Brentford FC,,
+17. Jornada,2025-12-20,17:30,Tottenham Hotspur,Liverpool FC,,
+17. Jornada,2025-12-20,20:00,Everton FC,Arsenal FC,,
+17. Jornada,2025-12-20,20:00,Leeds United,Crystal Palace,,
+17. Jornada,2025-12-21,16:30,Aston Villa,Manchester United,,
+17. Jornada,2025-12-22,20:00,Fulham FC,Nottingham Forest,,
+18. Jornada,2025-12-26,20:00,Manchester United,Newcastle United,,
+18. Jornada,2025-12-27,12:30,Nottingham Forest,Manchester City,,
+18. Jornada,2025-12-27,15:00,Arsenal FC,Brighton & Hove Albion,,
+18. Jornada,2025-12-27,15:00,Brentford FC,AFC Bournemouth,,
+18. Jornada,2025-12-27,15:00,Burnley FC,Everton FC,,
+18. Jornada,2025-12-27,15:00,Liverpool FC,Wolverhampton Wanderers,,
+18. Jornada,2025-12-27,15:00,West Ham United,Fulham FC,,
+18. Jornada,2025-12-27,17:30,Chelsea FC,Aston Villa,,
+18. Jornada,2025-12-28,14:00,Sunderland AFC,Leeds United,,
+18. Jornada,2025-12-28,16:30,Crystal Palace,Tottenham Hotspur,,
+19. Jornada,2025-12-30,19:30,Burnley FC,Newcastle United,,
+19. Jornada,2025-12-30,19:30,Chelsea FC,AFC Bournemouth,,
+19. Jornada,2025-12-30,19:30,Nottingham Forest,Everton FC,,
+19. Jornada,2025-12-30,19:30,West Ham United,Brighton & Hove Albion,,
+19. Jornada,2025-12-30,20:15,Arsenal FC,Aston Villa,,
+19. Jornada,2025-12-30,20:15,Manchester United,Wolverhampton Wanderers,,
+19. Jornada,2026-01-01,17:30,Crystal Palace,Fulham FC,,
+19. Jornada,2026-01-01,17:30,Liverpool FC,Leeds United,,
+19. Jornada,2026-01-01,20:00,Sunderland AFC,Manchester City,,
+19. Jornada,2026-01-01,20:00,Brentford FC,Tottenham Hotspur,,
+20. Jornada,2026-01-03,12:30,Aston Villa,Nottingham Forest,,
+20. Jornada,2026-01-03,15:00,Brighton & Hove Albion,Burnley FC,,
+20. Jornada,2026-01-03,15:00,Wolverhampton Wanderers,West Ham United,,
+20. Jornada,2026-01-03,17:30,AFC Bournemouth,Arsenal FC,,
+20. Jornada,2026-01-04,12:30,Leeds United,Manchester United,,
+20. Jornada,2026-01-04,15:00,Everton FC,Brentford FC,,
+20. Jornada,2026-01-04,15:00,Fulham FC,Liverpool FC,,
+20. Jornada,2026-01-04,15:00,Newcastle United,Crystal Palace,,
+20. Jornada,2026-01-04,15:00,Tottenham Hotspur,Sunderland AFC,,
+20. Jornada,2026-01-04,17:30,Manchester City,Chelsea FC,,
+21. Jornada,2026-01-06,20:00,West Ham United,Nottingham Forest,,
+21. Jornada,2026-01-07,19:30,AFC Bournemouth,Tottenham Hotspur,,
+21. Jornada,2026-01-07,19:30,Crystal Palace,Aston Villa,,
+21. Jornada,2026-01-07,19:30,Brentford FC,Sunderland AFC,,
+21. Jornada,2026-01-07,19:30,Everton FC,Wolverhampton Wanderers,,
+21. Jornada,2026-01-07,19:30,Fulham FC,Chelsea FC,,
+21. Jornada,2026-01-07,19:30,Manchester City,Brighton & Hove Albion,,
+21. Jornada,2026-01-07,20:15,Burnley FC,Manchester United,,
+21. Jornada,2026-01-07,20:15,Newcastle United,Leeds United,,
+21. Jornada,2026-01-08,20:00,Arsenal FC,Liverpool FC,,
+22. Jornada,2026-01-17,12:30,Manchester United,Manchester City,,
+22. Jornada,2026-01-17,15:00,Sunderland AFC,Crystal Palace,,
+22. Jornada,2026-01-17,15:00,Chelsea FC,Brentford FC,,
+22. Jornada,2026-01-17,15:00,Liverpool FC,Burnley FC,,
+22. Jornada,2026-01-17,15:00,Leeds United,Fulham FC,,
+22. Jornada,2026-01-17,15:00,Tottenham Hotspur,West Ham United,,
+22. Jornada,2026-01-17,17:30,Nottingham Forest,Arsenal FC,,
+22. Jornada,2026-01-18,14:00,Wolverhampton Wanderers,Newcastle United,,
+22. Jornada,2026-01-18,16:30,Aston Villa,Everton FC,,
+22. Jornada,2026-01-19,20:00,Brighton & Hove Albion,AFC Bournemouth,,
+23. Jornada,2026-01-24,12:30,West Ham United,Sunderland AFC,,
+23. Jornada,2026-01-24,15:00,Burnley FC,Tottenham Hotspur,,
+23. Jornada,2026-01-24,15:00,Fulham FC,Brighton & Hove Albion,,
+23. Jornada,2026-01-24,15:00,Manchester City,Wolverhampton Wanderers,,
+23. Jornada,2026-01-24,17:30,AFC Bournemouth,Liverpool FC,,
+23. Jornada,2026-01-25,14:00,Crystal Palace,Chelsea FC,,
+23. Jornada,2026-01-25,14:00,Brentford FC,Nottingham Forest,,
+23. Jornada,2026-01-25,14:00,Newcastle United,Aston Villa,,
+23. Jornada,2026-01-25,16:30,Arsenal FC,Manchester United,,
+23. Jornada,2026-01-26,20:00,Everton FC,Leeds United,,
+24. Jornada,2026-01-31,15:00,Brighton & Hove Albion,Everton FC,,
+24. Jornada,2026-01-31,15:00,Leeds United,Arsenal FC,,
+24. Jornada,2026-01-31,15:00,Wolverhampton Wanderers,AFC Bournemouth,,
+24. Jornada,2026-01-31,17:30,Chelsea FC,West Ham United,,
+24. Jornada,2026-01-31,20:00,Liverpool FC,Newcastle United,,
+24. Jornada,2026-02-01,14:00,Aston Villa,Brentford FC,,
+24. Jornada,2026-02-01,14:00,Manchester United,Fulham FC,,
+24. Jornada,2026-02-01,14:00,Nottingham Forest,Crystal Palace,,
+24. Jornada,2026-02-01,16:30,Tottenham Hotspur,Manchester City,,
+24. Jornada,2026-02-02,20:00,Sunderland AFC,Burnley FC,,
+25. Jornada,2026-02-06,23:00,AFC Bournemouth,Aston Villa,,
+25. Jornada,2026-02-06,23:00,Brighton & Hove Albion,Crystal Palace,,
+25. Jornada,2026-02-06,23:00,Arsenal FC,Sunderland AFC,,
+25. Jornada,2026-02-06,23:00,Burnley FC,West Ham United,,
+25. Jornada,2026-02-06,23:00,Fulham FC,Everton FC,,
+25. Jornada,2026-02-06,23:00,Liverpool FC,Manchester City,,
+25. Jornada,2026-02-06,23:00,Leeds United,Nottingham Forest,,
+25. Jornada,2026-02-06,23:00,Manchester United,Tottenham Hotspur,,
+25. Jornada,2026-02-06,23:00,Newcastle United,Brentford FC,,
+25. Jornada,2026-02-06,23:00,Wolverhampton Wanderers,Chelsea FC,,
+26. Jornada,2026-02-10,23:00,Sunderland AFC,Liverpool FC,,
+26. Jornada,2026-02-10,23:00,Aston Villa,Brighton & Hove Albion,,
+26. Jornada,2026-02-10,23:00,Crystal Palace,Burnley FC,,
+26. Jornada,2026-02-10,23:00,Brentford FC,Arsenal FC,,
+26. Jornada,2026-02-10,23:00,Chelsea FC,Leeds United,,
+26. Jornada,2026-02-10,23:00,Everton FC,AFC Bournemouth,,
+26. Jornada,2026-02-10,23:00,Manchester City,Fulham FC,,
+26. Jornada,2026-02-10,23:00,Nottingham Forest,Wolverhampton Wanderers,,
+26. Jornada,2026-02-10,23:00,Tottenham Hotspur,Newcastle United,,
+26. Jornada,2026-02-10,23:00,West Ham United,Manchester United,,
+27. Jornada,2026-02-20,23:00,Sunderland AFC,Fulham FC,,
+27. Jornada,2026-02-20,23:00,Aston Villa,Leeds United,,
+27. Jornada,2026-02-20,23:00,Crystal Palace,Wolverhampton Wanderers,,
+27. Jornada,2026-02-20,23:00,Brentford FC,Brighton & Hove Albion,,
+27. Jornada,2026-02-20,23:00,Chelsea FC,Burnley FC,,
+27. Jornada,2026-02-20,23:00,Everton FC,Manchester United,,
+27. Jornada,2026-02-20,23:00,Manchester City,Newcastle United,,
+27. Jornada,2026-02-20,23:00,Nottingham Forest,Liverpool FC,,
+27. Jornada,2026-02-20,23:00,Tottenham Hotspur,Arsenal FC,,
+27. Jornada,2026-02-20,23:00,West Ham United,AFC Bournemouth,,
+28. Jornada,2026-02-27,23:00,AFC Bournemouth,Sunderland AFC,,
+28. Jornada,2026-02-27,23:00,Brighton & Hove Albion,Nottingham Forest,,
+28. Jornada,2026-02-27,23:00,Arsenal FC,Chelsea FC,,
+28. Jornada,2026-02-27,23:00,Burnley FC,Brentford FC,,
+28. Jornada,2026-02-27,23:00,Fulham FC,Tottenham Hotspur,,
+28. Jornada,2026-02-27,23:00,Liverpool FC,West Ham United,,
+28. Jornada,2026-02-27,23:00,Leeds United,Manchester City,,
+28. Jornada,2026-02-27,23:00,Manchester United,Crystal Palace,,
+28. Jornada,2026-02-27,23:00,Newcastle United,Everton FC,,
+28. Jornada,2026-02-27,23:00,Wolverhampton Wanderers,Aston Villa,,
+29. Jornada,2026-03-03,23:00,AFC Bournemouth,Brentford FC,,
+29. Jornada,2026-03-03,23:00,Aston Villa,Chelsea FC,,
+29. Jornada,2026-03-03,23:00,Brighton & Hove Albion,Arsenal FC,,
+29. Jornada,2026-03-03,23:00,Everton FC,Burnley FC,,
+29. Jornada,2026-03-03,23:00,Fulham FC,West Ham United,,
+29. Jornada,2026-03-03,23:00,Leeds United,Sunderland AFC,,
+29. Jornada,2026-03-03,23:00,Manchester City,Nottingham Forest,,
+29. Jornada,2026-03-03,23:00,Newcastle United,Manchester United,,
+29. Jornada,2026-03-03,23:00,Tottenham Hotspur,Crystal Palace,,
+29. Jornada,2026-03-03,23:00,Wolverhampton Wanderers,Liverpool FC,,
+30. Jornada,2026-03-13,23:00,Sunderland AFC,Brighton & Hove Albion,,
+30. Jornada,2026-03-13,23:00,Crystal Palace,Leeds United,,
+30. Jornada,2026-03-13,23:00,Arsenal FC,Everton FC,,
+30. Jornada,2026-03-13,23:00,Brentford FC,Wolverhampton Wanderers,,
+30. Jornada,2026-03-13,23:00,Burnley FC,AFC Bournemouth,,
+30. Jornada,2026-03-13,23:00,Chelsea FC,Newcastle United,,
+30. Jornada,2026-03-13,23:00,Liverpool FC,Tottenham Hotspur,,
+30. Jornada,2026-03-13,23:00,Manchester United,Aston Villa,,
+30. Jornada,2026-03-13,23:00,Nottingham Forest,Fulham FC,,
+30. Jornada,2026-03-13,23:00,West Ham United,Manchester City,,
+31. Jornada,2026-03-20,23:00,AFC Bournemouth,Manchester United,,
+31. Jornada,2026-03-20,23:00,Aston Villa,West Ham United,,
+31. Jornada,2026-03-20,23:00,Brighton & Hove Albion,Liverpool FC,,
+31. Jornada,2026-03-20,23:00,Everton FC,Chelsea FC,,
+31. Jornada,2026-03-20,23:00,Fulham FC,Burnley FC,,
+31. Jornada,2026-03-20,23:00,Leeds United,Brentford FC,,
+31. Jornada,2026-03-20,23:00,Manchester City,Crystal Palace,,
+31. Jornada,2026-03-20,23:00,Newcastle United,Sunderland AFC,,
+31. Jornada,2026-03-20,23:00,Tottenham Hotspur,Nottingham Forest,,
+31. Jornada,2026-03-20,23:00,Wolverhampton Wanderers,Arsenal FC,,
+32. Jornada,2026-04-10,22:00,Sunderland AFC,Tottenham Hotspur,,
+32. Jornada,2026-04-10,22:00,Crystal Palace,Newcastle United,,
+32. Jornada,2026-04-10,22:00,Arsenal FC,AFC Bournemouth,,
+32. Jornada,2026-04-10,22:00,Brentford FC,Everton FC,,
+32. Jornada,2026-04-10,22:00,Burnley FC,Brighton & Hove Albion,,
+32. Jornada,2026-04-10,22:00,Chelsea FC,Manchester City,,
+32. Jornada,2026-04-10,22:00,Liverpool FC,Fulham FC,,
+32. Jornada,2026-04-10,22:00,Manchester United,Leeds United,,
+32. Jornada,2026-04-10,22:00,Nottingham Forest,Aston Villa,,
+32. Jornada,2026-04-10,22:00,West Ham United,Wolverhampton Wanderers,,
+33. Jornada,2026-04-17,22:00,Aston Villa,Sunderland AFC,,
+33. Jornada,2026-04-17,22:00,Crystal Palace,West Ham United,,
+33. Jornada,2026-04-17,22:00,Brentford FC,Fulham FC,,
+33. Jornada,2026-04-17,22:00,Chelsea FC,Manchester United,,
+33. Jornada,2026-04-17,22:00,Everton FC,Liverpool FC,,
+33. Jornada,2026-04-17,22:00,Leeds United,Wolverhampton Wanderers,,
+33. Jornada,2026-04-17,22:00,Manchester City,Arsenal FC,,
+33. Jornada,2026-04-17,22:00,Newcastle United,AFC Bournemouth,,
+33. Jornada,2026-04-17,22:00,Nottingham Forest,Burnley FC,,
+33. Jornada,2026-04-17,22:00,Tottenham Hotspur,Brighton & Hove Albion,,
+34. Jornada,2026-04-24,22:00,AFC Bournemouth,Leeds United,,
+34. Jornada,2026-04-24,22:00,Sunderland AFC,Nottingham Forest,,
+34. Jornada,2026-04-24,22:00,Brighton & Hove Albion,Chelsea FC,,
+34. Jornada,2026-04-24,22:00,Arsenal FC,Newcastle United,,
+34. Jornada,2026-04-24,22:00,Burnley FC,Manchester City,,
+34. Jornada,2026-04-24,22:00,Fulham FC,Aston Villa,,
+34. Jornada,2026-04-24,22:00,Liverpool FC,Crystal Palace,,
+34. Jornada,2026-04-24,22:00,Manchester United,Brentford FC,,
+34. Jornada,2026-04-24,22:00,West Ham United,Everton FC,,
+34. Jornada,2026-04-24,22:00,Wolverhampton Wanderers,Tottenham Hotspur,,
+35. Jornada,2026-05-01,22:00,AFC Bournemouth,Crystal Palace,,
+35. Jornada,2026-05-01,22:00,Aston Villa,Tottenham Hotspur,,
+35. Jornada,2026-05-01,22:00,Arsenal FC,Fulham FC,,
+35. Jornada,2026-05-01,22:00,Brentford FC,West Ham United,,
+35. Jornada,2026-05-01,22:00,Chelsea FC,Nottingham Forest,,
+35. Jornada,2026-05-01,22:00,Everton FC,Manchester City,,
+35. Jornada,2026-05-01,22:00,Leeds United,Burnley FC,,
+35. Jornada,2026-05-01,22:00,Manchester United,Liverpool FC,,
+35. Jornada,2026-05-01,22:00,Newcastle United,Brighton & Hove Albion,,
+35. Jornada,2026-05-01,22:00,Wolverhampton Wanderers,Sunderland AFC,,
+36. Jornada,2026-05-08,22:00,Sunderland AFC,Manchester United,,
+36. Jornada,2026-05-08,22:00,Brighton & Hove Albion,Wolverhampton Wanderers,,
+36. Jornada,2026-05-08,22:00,Crystal Palace,Everton FC,,
+36. Jornada,2026-05-08,22:00,Burnley FC,Aston Villa,,
+36. Jornada,2026-05-08,22:00,Fulham FC,AFC Bournemouth,,
+36. Jornada,2026-05-08,22:00,Liverpool FC,Chelsea FC,,
+36. Jornada,2026-05-08,22:00,Manchester City,Brentford FC,,
+36. Jornada,2026-05-08,22:00,Nottingham Forest,Newcastle United,,
+36. Jornada,2026-05-08,22:00,Tottenham Hotspur,Leeds United,,
+36. Jornada,2026-05-08,22:00,West Ham United,Arsenal FC,,
+37. Jornada,2026-05-16,22:00,AFC Bournemouth,Manchester City,,
+37. Jornada,2026-05-16,22:00,Aston Villa,Liverpool FC,,
+37. Jornada,2026-05-16,22:00,Arsenal FC,Burnley FC,,
+37. Jornada,2026-05-16,22:00,Brentford FC,Crystal Palace,,
+37. Jornada,2026-05-16,22:00,Chelsea FC,Tottenham Hotspur,,
+37. Jornada,2026-05-16,22:00,Everton FC,Sunderland AFC,,
+37. Jornada,2026-05-16,22:00,Leeds United,Brighton & Hove Albion,,
+37. Jornada,2026-05-16,22:00,Manchester United,Nottingham Forest,,
+37. Jornada,2026-05-16,22:00,Newcastle United,West Ham United,,
+37. Jornada,2026-05-16,22:00,Wolverhampton Wanderers,Fulham FC,,
+38. Jornada,2026-05-23,22:00,Sunderland AFC,Chelsea FC,,
+38. Jornada,2026-05-23,22:00,Brighton & Hove Albion,Manchester United,,
+38. Jornada,2026-05-23,22:00,Crystal Palace,Arsenal FC,,
+38. Jornada,2026-05-23,22:00,Burnley FC,Wolverhampton Wanderers,,
+38. Jornada,2026-05-23,22:00,Fulham FC,Newcastle United,,
+38. Jornada,2026-05-23,22:00,Liverpool FC,Brentford FC,,
+38. Jornada,2026-05-23,22:00,Manchester City,Aston Villa,,
+38. Jornada,2026-05-23,22:00,Nottingham Forest,AFC Bournemouth,,
+38. Jornada,2026-05-23,22:00,Tottenham Hotspur,Everton FC,,
+38. Jornada,2026-05-23,22:00,West Ham United,Leeds United,,

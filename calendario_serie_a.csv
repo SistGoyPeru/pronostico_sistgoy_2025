@@ -1,0 +1,381 @@
+Jornada,Fecha,Hora,Local,Visita,GA,GC
+1. Jornada,2025-08-23,16:30,Genoa CFC,US Lecce,0,0
+1. Jornada,2025-08-23,16:30,Sassuolo Calcio,SSC Napoli,0,2
+1. Jornada,2025-08-23,18:45,AC Milan,US Cremonese,1,2
+1. Jornada,2025-08-23,18:45,AS Roma,Bologna FC,1,0
+1. Jornada,2025-08-24,16:30,Cagliari Calcio,ACF Fiorentina,1,1
+1. Jornada,2025-08-24,16:30,Como 1907,Lazio Roma,2,0
+1. Jornada,2025-08-24,18:45,Atalanta,Pisa SC,1,1
+1. Jornada,2025-08-24,18:45,Juventus,Parma Calcio 1913,2,0
+1. Jornada,2025-08-25,16:30,Udinese Calcio,Hellas Verona,1,1
+1. Jornada,2025-08-25,18:45,Inter,Torino FC,5,0
+2. Jornada,2025-08-29,16:30,US Cremonese,Sassuolo Calcio,3,2
+2. Jornada,2025-08-29,18:45,US Lecce,AC Milan,0,2
+2. Jornada,2025-08-30,16:30,Bologna FC,Como 1907,1,0
+2. Jornada,2025-08-30,16:30,Parma Calcio 1913,Atalanta,1,1
+2. Jornada,2025-08-30,18:45,Pisa SC,AS Roma,0,1
+2. Jornada,2025-08-30,18:45,SSC Napoli,Cagliari Calcio,1,0
+2. Jornada,2025-08-31,16:30,Genoa CFC,Juventus,0,1
+2. Jornada,2025-08-31,16:30,Torino FC,ACF Fiorentina,0,0
+2. Jornada,2025-08-31,18:45,Inter,Udinese Calcio,1,2
+2. Jornada,2025-08-31,18:45,Lazio Roma,Hellas Verona,4,0
+3. Jornada,2025-09-13,13:00,Cagliari Calcio,Parma Calcio 1913,2,0
+3. Jornada,2025-09-13,16:00,Juventus,Inter,4,3
+3. Jornada,2025-09-13,18:45,ACF Fiorentina,SSC Napoli,1,3
+3. Jornada,2025-09-14,10:30,AS Roma,Torino FC,0,1
+3. Jornada,2025-09-14,13:00,Atalanta,US Lecce,4,1
+3. Jornada,2025-09-14,13:00,Pisa SC,Udinese Calcio,0,1
+3. Jornada,2025-09-14,16:00,Sassuolo Calcio,Lazio Roma,1,0
+3. Jornada,2025-09-14,18:45,AC Milan,Bologna FC,1,0
+3. Jornada,2025-09-15,16:30,Hellas Verona,US Cremonese,0,0
+3. Jornada,2025-09-15,18:45,Como 1907,Genoa CFC,1,1
+4. Jornada,2025-09-19,18:45,US Lecce,Cagliari Calcio,1,2
+4. Jornada,2025-09-20,13:00,Bologna FC,Genoa CFC,2,1
+4. Jornada,2025-09-20,16:00,Hellas Verona,Juventus,1,1
+4. Jornada,2025-09-20,18:45,Udinese Calcio,AC Milan,0,3
+4. Jornada,2025-09-21,10:30,Lazio Roma,AS Roma,0,1
+4. Jornada,2025-09-21,13:00,Torino FC,Atalanta,0,3
+4. Jornada,2025-09-21,13:00,US Cremonese,Parma Calcio 1913,0,0
+4. Jornada,2025-09-21,16:00,ACF Fiorentina,Como 1907,1,2
+4. Jornada,2025-09-21,18:45,Inter,Sassuolo Calcio,2,1
+4. Jornada,2025-09-22,18:45,SSC Napoli,Pisa SC,3,2
+5. Jornada,2025-09-27,13:00,Como 1907,US Cremonese,1,1
+5. Jornada,2025-09-27,16:00,Juventus,Atalanta,1,1
+5. Jornada,2025-09-27,18:45,Cagliari Calcio,Inter,0,2
+5. Jornada,2025-09-28,10:30,Sassuolo Calcio,Udinese Calcio,3,1
+5. Jornada,2025-09-28,13:00,AS Roma,Hellas Verona,2,0
+5. Jornada,2025-09-28,13:00,Pisa SC,ACF Fiorentina,0,0
+5. Jornada,2025-09-28,16:00,US Lecce,Bologna FC,2,2
+5. Jornada,2025-09-28,18:45,AC Milan,SSC Napoli,2,1
+5. Jornada,2025-09-29,16:30,Parma Calcio 1913,Torino FC,2,1
+5. Jornada,2025-09-29,18:45,Genoa CFC,Lazio Roma,0,3
+6. Jornada,2025-10-03,18:45,Hellas Verona,Sassuolo Calcio,0,1
+6. Jornada,2025-10-04,13:00,Lazio Roma,Torino FC,3,3
+6. Jornada,2025-10-04,13:00,Parma Calcio 1913,US Lecce,0,1
+6. Jornada,2025-10-04,16:00,Inter,US Cremonese,4,1
+6. Jornada,2025-10-04,18:45,Atalanta,Como 1907,1,1
+6. Jornada,2025-10-05,10:30,Udinese Calcio,Cagliari Calcio,1,1
+6. Jornada,2025-10-05,13:00,ACF Fiorentina,AS Roma,1,2
+6. Jornada,2025-10-05,13:00,Bologna FC,Pisa SC,4,0
+6. Jornada,2025-10-05,16:00,SSC Napoli,Genoa CFC,2,1
+6. Jornada,2025-10-05,18:45,Juventus,AC Milan,0,0
+7. Jornada,2025-10-18,13:00,Pisa SC,Hellas Verona,0,0
+7. Jornada,2025-10-18,13:00,US Lecce,Sassuolo Calcio,0,0
+7. Jornada,2025-10-18,16:00,Torino FC,SSC Napoli,1,0
+7. Jornada,2025-10-18,18:45,AS Roma,Inter,0,1
+7. Jornada,2025-10-19,10:30,Como 1907,Juventus,2,0
+7. Jornada,2025-10-19,13:00,Cagliari Calcio,Bologna FC,0,2
+7. Jornada,2025-10-19,13:00,Genoa CFC,Parma Calcio 1913,0,0
+7. Jornada,2025-10-19,16:00,Atalanta,Lazio Roma,0,0
+7. Jornada,2025-10-19,18:45,AC Milan,ACF Fiorentina,2,1
+7. Jornada,2025-10-20,18:45,US Cremonese,Udinese Calcio,1,1
+8. Jornada,2025-10-24,18:45,AC Milan,Pisa SC,2,2
+8. Jornada,2025-10-25,13:00,Parma Calcio 1913,Como 1907,0,0
+8. Jornada,2025-10-25,13:00,Udinese Calcio,US Lecce,3,2
+8. Jornada,2025-10-25,16:00,SSC Napoli,Inter,3,1
+8. Jornada,2025-10-25,18:45,US Cremonese,Atalanta,1,1
+8. Jornada,2025-10-26,11:30,Torino FC,Genoa CFC,2,1
+8. Jornada,2025-10-26,14:00,Hellas Verona,Cagliari Calcio,2,2
+8. Jornada,2025-10-26,14:00,Sassuolo Calcio,AS Roma,0,1
+8. Jornada,2025-10-26,17:00,ACF Fiorentina,Bologna FC,2,2
+8. Jornada,2025-10-26,19:45,Lazio Roma,Juventus,1,0
+9. Jornada,2025-10-28,17:30,US Lecce,SSC Napoli,0,1
+9. Jornada,2025-10-28,19:45,Atalanta,AC Milan,1,1
+9. Jornada,2025-10-29,17:30,AS Roma,Parma Calcio 1913,2,1
+9. Jornada,2025-10-29,17:30,Como 1907,Hellas Verona,3,1
+9. Jornada,2025-10-29,17:30,Juventus,Udinese Calcio,3,1
+9. Jornada,2025-10-29,19:45,Genoa CFC,US Cremonese,0,2
+9. Jornada,2025-10-29,19:45,Bologna FC,Torino FC,0,0
+9. Jornada,2025-10-29,19:45,Inter,ACF Fiorentina,3,0
+9. Jornada,2025-10-30,17:30,Cagliari Calcio,Sassuolo Calcio,1,2
+9. Jornada,2025-10-30,19:45,Pisa SC,Lazio Roma,0,0
+10. Jornada,2025-11-01,14:00,Udinese Calcio,Atalanta,1,0
+10. Jornada,2025-11-01,17:00,SSC Napoli,Como 1907,0,0
+10. Jornada,2025-11-01,19:45,US Cremonese,Juventus,1,2
+10. Jornada,2025-11-02,11:30,Hellas Verona,Inter,1,2
+10. Jornada,2025-11-02,14:00,ACF Fiorentina,US Lecce,0,1
+10. Jornada,2025-11-02,14:00,Torino FC,Pisa SC,2,2
+10. Jornada,2025-11-02,17:00,Parma Calcio 1913,Bologna FC,1,3
+10. Jornada,2025-11-02,19:45,AC Milan,AS Roma,1,0
+10. Jornada,2025-11-03,17:30,Sassuolo Calcio,Genoa CFC,1,2
+10. Jornada,2025-11-03,19:45,Lazio Roma,Cagliari Calcio,2,0
+11. Jornada,2025-11-07,19:45,Pisa SC,US Cremonese,1,0
+11. Jornada,2025-11-08,14:00,Como 1907,Cagliari Calcio,0,0
+11. Jornada,2025-11-08,14:00,US Lecce,Hellas Verona,0,0
+11. Jornada,2025-11-08,17:00,Juventus,Torino FC,0,0
+11. Jornada,2025-11-08,19:45,Parma Calcio 1913,AC Milan,2,2
+11. Jornada,2025-11-09,11:30,Atalanta,Sassuolo Calcio,0,3
+11. Jornada,2025-11-09,14:00,Genoa CFC,ACF Fiorentina,2,2
+11. Jornada,2025-11-09,14:00,Bologna FC,SSC Napoli,2,0
+11. Jornada,2025-11-09,17:00,AS Roma,Udinese Calcio,2,0
+11. Jornada,2025-11-09,19:45,Inter,Lazio Roma,2,0
+12. Jornada,2025-11-22,14:00,Cagliari Calcio,Genoa CFC,3,3
+12. Jornada,2025-11-22,14:00,Udinese Calcio,Bologna FC,0,3
+12. Jornada,2025-11-22,17:00,ACF Fiorentina,Juventus,1,1
+12. Jornada,2025-11-22,19:45,SSC Napoli,Atalanta,3,1
+12. Jornada,2025-11-23,11:30,Hellas Verona,Parma Calcio 1913,1,2
+12. Jornada,2025-11-23,14:00,US Cremonese,AS Roma,1,3
+12. Jornada,2025-11-23,17:00,Lazio Roma,US Lecce,2,0
+12. Jornada,2025-11-23,19:45,Inter,AC Milan,0,1
+12. Jornada,2025-11-24,17:30,Torino FC,Como 1907,1,5
+12. Jornada,2025-11-24,19:45,Sassuolo Calcio,Pisa SC,2,2
+13. Jornada,2025-11-28,19:45,Como 1907,Sassuolo Calcio,2,0
+13. Jornada,2025-11-29,14:00,Genoa CFC,Hellas Verona,2,1
+13. Jornada,2025-11-29,14:00,Parma Calcio 1913,Udinese Calcio,0,2
+13. Jornada,2025-11-29,17:00,Juventus,Cagliari Calcio,2,1
+13. Jornada,2025-11-29,19:45,AC Milan,Lazio Roma,1,0
+13. Jornada,2025-11-30,11:30,US Lecce,Torino FC,2,1
+13. Jornada,2025-11-30,14:00,Pisa SC,Inter,0,0
+13. Jornada,2025-11-30,17:00,Atalanta,ACF Fiorentina,,
+13. Jornada,2025-11-30,19:45,AS Roma,SSC Napoli,,
+13. Jornada,2025-12-01,19:45,Bologna FC,US Cremonese,,
+14. Jornada,2025-12-06,14:00,Sassuolo Calcio,ACF Fiorentina,,
+14. Jornada,2025-12-06,17:00,Inter,Como 1907,,
+14. Jornada,2025-12-06,19:45,Hellas Verona,Atalanta,,
+14. Jornada,2025-12-07,11:30,US Cremonese,US Lecce,,
+14. Jornada,2025-12-07,14:00,Cagliari Calcio,AS Roma,,
+14. Jornada,2025-12-07,17:00,Lazio Roma,Bologna FC,,
+14. Jornada,2025-12-07,19:45,SSC Napoli,Juventus,,
+14. Jornada,2025-12-08,14:00,Pisa SC,Parma Calcio 1913,,
+14. Jornada,2025-12-08,17:00,Udinese Calcio,Genoa CFC,,
+14. Jornada,2025-12-08,19:45,Torino FC,AC Milan,,
+15. Jornada,2025-12-12,19:45,US Lecce,Pisa SC,,
+15. Jornada,2025-12-13,14:00,Torino FC,US Cremonese,,
+15. Jornada,2025-12-13,17:00,Parma Calcio 1913,Lazio Roma,,
+15. Jornada,2025-12-13,19:45,Atalanta,Cagliari Calcio,,
+15. Jornada,2025-12-14,11:30,AC Milan,Sassuolo Calcio,,
+15. Jornada,2025-12-14,14:00,ACF Fiorentina,Hellas Verona,,
+15. Jornada,2025-12-14,14:00,Udinese Calcio,SSC Napoli,,
+15. Jornada,2025-12-14,17:00,Genoa CFC,Inter,,
+15. Jornada,2025-12-14,19:45,Bologna FC,Juventus,,
+15. Jornada,2025-12-15,19:45,AS Roma,Como 1907,,
+16. Jornada,2025-12-20,17:00,Lazio Roma,US Cremonese,,
+16. Jornada,2025-12-20,19:45,Juventus,AS Roma,,
+16. Jornada,2025-12-21,11:30,Cagliari Calcio,Pisa SC,,
+16. Jornada,2025-12-21,14:00,Sassuolo Calcio,Torino FC,,
+16. Jornada,2025-12-21,17:00,ACF Fiorentina,Udinese Calcio,,
+16. Jornada,2025-12-21,19:45,Genoa CFC,Atalanta,,
+16. Jornada,2026-01-14,17:30,SSC Napoli,Parma Calcio 1913,,
+16. Jornada,2026-01-14,19:45,Inter,US Lecce,,
+16. Jornada,2026-01-15,17:30,Hellas Verona,Bologna FC,,
+16. Jornada,2026-01-15,19:45,Como 1907,AC Milan,,
+17. Jornada,2025-12-27,11:30,Parma Calcio 1913,ACF Fiorentina,,
+17. Jornada,2025-12-27,14:00,Torino FC,Cagliari Calcio,,
+17. Jornada,2025-12-27,14:00,US Lecce,Como 1907,,
+17. Jornada,2025-12-27,17:00,Udinese Calcio,Lazio Roma,,
+17. Jornada,2025-12-27,19:45,Pisa SC,Juventus,,
+17. Jornada,2025-12-28,11:30,AC Milan,Hellas Verona,,
+17. Jornada,2025-12-28,14:00,US Cremonese,SSC Napoli,,
+17. Jornada,2025-12-28,17:00,Bologna FC,Sassuolo Calcio,,
+17. Jornada,2025-12-28,19:45,Atalanta,Inter,,
+17. Jornada,2025-12-29,19:45,AS Roma,Genoa CFC,,
+18. Jornada,2026-01-02,19:45,Cagliari Calcio,AC Milan,,
+18. Jornada,2026-01-03,11:30,Como 1907,Udinese Calcio,,
+18. Jornada,2026-01-03,14:00,Genoa CFC,Pisa SC,,
+18. Jornada,2026-01-03,14:00,Sassuolo Calcio,Parma Calcio 1913,,
+18. Jornada,2026-01-03,17:00,Juventus,US Lecce,,
+18. Jornada,2026-01-03,19:45,Atalanta,AS Roma,,
+18. Jornada,2026-01-04,11:30,Lazio Roma,SSC Napoli,,
+18. Jornada,2026-01-04,14:00,ACF Fiorentina,US Cremonese,,
+18. Jornada,2026-01-04,17:00,Hellas Verona,Torino FC,,
+18. Jornada,2026-01-04,19:45,Inter,Bologna FC,,
+19. Jornada,2026-01-06,14:00,Pisa SC,Como 1907,,
+19. Jornada,2026-01-06,17:00,US Lecce,AS Roma,,
+19. Jornada,2026-01-06,19:45,Sassuolo Calcio,Juventus,,
+19. Jornada,2026-01-07,17:30,Bologna FC,Atalanta,,
+19. Jornada,2026-01-07,17:30,SSC Napoli,Hellas Verona,,
+19. Jornada,2026-01-07,19:45,Torino FC,Udinese Calcio,,
+19. Jornada,2026-01-07,19:45,Lazio Roma,ACF Fiorentina,,
+19. Jornada,2026-01-07,19:45,Parma Calcio 1913,Inter,,
+19. Jornada,2026-01-08,17:30,US Cremonese,Cagliari Calcio,,
+19. Jornada,2026-01-08,19:45,AC Milan,Genoa CFC,,
+20. Jornada,2026-01-10,14:00,Como 1907,Bologna FC,,
+20. Jornada,2026-01-10,14:00,Udinese Calcio,Pisa SC,,
+20. Jornada,2026-01-10,17:00,AS Roma,Sassuolo Calcio,,
+20. Jornada,2026-01-10,19:45,Atalanta,Torino FC,,
+20. Jornada,2026-01-11,11:30,US Lecce,Parma Calcio 1913,,
+20. Jornada,2026-01-11,14:00,ACF Fiorentina,AC Milan,,
+20. Jornada,2026-01-11,17:00,Hellas Verona,Lazio Roma,,
+20. Jornada,2026-01-11,19:45,Inter,SSC Napoli,,
+20. Jornada,2026-01-12,17:30,Genoa CFC,Cagliari Calcio,,
+20. Jornada,2026-01-12,19:45,Juventus,US Cremonese,,
+21. Jornada,2026-01-16,19:45,Pisa SC,Atalanta,,
+21. Jornada,2026-01-17,14:00,Udinese Calcio,Inter,,
+21. Jornada,2026-01-17,17:00,SSC Napoli,Sassuolo Calcio,,
+21. Jornada,2026-01-17,19:45,Cagliari Calcio,Juventus,,
+21. Jornada,2026-01-18,11:30,Parma Calcio 1913,Genoa CFC,,
+21. Jornada,2026-01-18,14:00,Bologna FC,ACF Fiorentina,,
+21. Jornada,2026-01-18,17:00,Torino FC,AS Roma,,
+21. Jornada,2026-01-18,19:45,AC Milan,US Lecce,,
+21. Jornada,2026-01-19,17:30,US Cremonese,Hellas Verona,,
+21. Jornada,2026-01-19,19:45,Lazio Roma,Como 1907,,
+22. Jornada,2026-01-23,19:45,Inter,Pisa SC,,
+22. Jornada,2026-01-24,14:00,Como 1907,Torino FC,,
+22. Jornada,2026-01-24,17:00,ACF Fiorentina,Cagliari Calcio,,
+22. Jornada,2026-01-24,19:45,US Lecce,Lazio Roma,,
+22. Jornada,2026-01-25,11:30,Sassuolo Calcio,US Cremonese,,
+22. Jornada,2026-01-25,14:00,Atalanta,Parma Calcio 1913,,
+22. Jornada,2026-01-25,14:00,Genoa CFC,Bologna FC,,
+22. Jornada,2026-01-25,17:00,Juventus,SSC Napoli,,
+22. Jornada,2026-01-25,19:45,AS Roma,AC Milan,,
+22. Jornada,2026-01-26,19:45,Hellas Verona,Udinese Calcio,,
+23. Jornada,2026-01-31,23:00,Cagliari Calcio,Hellas Verona,,
+23. Jornada,2026-01-31,23:00,Como 1907,Atalanta,,
+23. Jornada,2026-01-31,23:00,Bologna FC,AC Milan,,
+23. Jornada,2026-01-31,23:00,Torino FC,US Lecce,,
+23. Jornada,2026-01-31,23:00,Lazio Roma,Genoa CFC,,
+23. Jornada,2026-01-31,23:00,Parma Calcio 1913,Juventus,,
+23. Jornada,2026-01-31,23:00,Pisa SC,Sassuolo Calcio,,
+23. Jornada,2026-01-31,23:00,SSC Napoli,ACF Fiorentina,,
+23. Jornada,2026-01-31,23:00,Udinese Calcio,AS Roma,,
+23. Jornada,2026-01-31,23:00,US Cremonese,Inter,,
+24. Jornada,2026-02-07,23:00,ACF Fiorentina,Torino FC,,
+24. Jornada,2026-02-07,23:00,AC Milan,Como 1907,,
+24. Jornada,2026-02-07,23:00,AS Roma,Cagliari Calcio,,
+24. Jornada,2026-02-07,23:00,Atalanta,US Cremonese,,
+24. Jornada,2026-02-07,23:00,Genoa CFC,SSC Napoli,,
+24. Jornada,2026-02-07,23:00,Bologna FC,Parma Calcio 1913,,
+24. Jornada,2026-02-07,23:00,Hellas Verona,Pisa SC,,
+24. Jornada,2026-02-07,23:00,Juventus,Lazio Roma,,
+24. Jornada,2026-02-07,23:00,Sassuolo Calcio,Inter,,
+24. Jornada,2026-02-07,23:00,US Lecce,Udinese Calcio,,
+25. Jornada,2026-02-14,23:00,Cagliari Calcio,US Lecce,,
+25. Jornada,2026-02-14,23:00,Como 1907,ACF Fiorentina,,
+25. Jornada,2026-02-14,23:00,Torino FC,Bologna FC,,
+25. Jornada,2026-02-14,23:00,Inter,Juventus,,
+25. Jornada,2026-02-14,23:00,Lazio Roma,Atalanta,,
+25. Jornada,2026-02-14,23:00,Parma Calcio 1913,Hellas Verona,,
+25. Jornada,2026-02-14,23:00,Pisa SC,AC Milan,,
+25. Jornada,2026-02-14,23:00,SSC Napoli,AS Roma,,
+25. Jornada,2026-02-14,23:00,Udinese Calcio,Sassuolo Calcio,,
+25. Jornada,2026-02-14,23:00,US Cremonese,Genoa CFC,,
+26. Jornada,2026-02-21,23:00,ACF Fiorentina,Pisa SC,,
+26. Jornada,2026-02-21,23:00,AC Milan,Parma Calcio 1913,,
+26. Jornada,2026-02-21,23:00,AS Roma,US Cremonese,,
+26. Jornada,2026-02-21,23:00,Atalanta,SSC Napoli,,
+26. Jornada,2026-02-21,23:00,Cagliari Calcio,Lazio Roma,,
+26. Jornada,2026-02-21,23:00,Genoa CFC,Torino FC,,
+26. Jornada,2026-02-21,23:00,Bologna FC,Udinese Calcio,,
+26. Jornada,2026-02-21,23:00,Juventus,Como 1907,,
+26. Jornada,2026-02-21,23:00,Sassuolo Calcio,Hellas Verona,,
+26. Jornada,2026-02-21,23:00,US Lecce,Inter,,
+27. Jornada,2026-02-28,23:00,AS Roma,Juventus,,
+27. Jornada,2026-02-28,23:00,Como 1907,US Lecce,,
+27. Jornada,2026-02-28,23:00,Torino FC,Lazio Roma,,
+27. Jornada,2026-02-28,23:00,Hellas Verona,SSC Napoli,,
+27. Jornada,2026-02-28,23:00,Inter,Genoa CFC,,
+27. Jornada,2026-02-28,23:00,Parma Calcio 1913,Cagliari Calcio,,
+27. Jornada,2026-02-28,23:00,Pisa SC,Bologna FC,,
+27. Jornada,2026-02-28,23:00,Sassuolo Calcio,Atalanta,,
+27. Jornada,2026-02-28,23:00,Udinese Calcio,ACF Fiorentina,,
+27. Jornada,2026-02-28,23:00,US Cremonese,AC Milan,,
+28. Jornada,2026-03-07,23:00,ACF Fiorentina,Parma Calcio 1913,,
+28. Jornada,2026-03-07,23:00,AC Milan,Inter,,
+28. Jornada,2026-03-07,23:00,Atalanta,Udinese Calcio,,
+28. Jornada,2026-03-07,23:00,Cagliari Calcio,Como 1907,,
+28. Jornada,2026-03-07,23:00,Genoa CFC,AS Roma,,
+28. Jornada,2026-03-07,23:00,Bologna FC,Hellas Verona,,
+28. Jornada,2026-03-07,23:00,Juventus,Pisa SC,,
+28. Jornada,2026-03-07,23:00,Lazio Roma,Sassuolo Calcio,,
+28. Jornada,2026-03-07,23:00,SSC Napoli,Torino FC,,
+28. Jornada,2026-03-07,23:00,US Lecce,US Cremonese,,
+29. Jornada,2026-03-14,23:00,Como 1907,AS Roma,,
+29. Jornada,2026-03-14,23:00,Torino FC,Parma Calcio 1913,,
+29. Jornada,2026-03-14,23:00,Hellas Verona,Genoa CFC,,
+29. Jornada,2026-03-14,23:00,Inter,Atalanta,,
+29. Jornada,2026-03-14,23:00,Lazio Roma,AC Milan,,
+29. Jornada,2026-03-14,23:00,Pisa SC,Cagliari Calcio,,
+29. Jornada,2026-03-14,23:00,Sassuolo Calcio,Bologna FC,,
+29. Jornada,2026-03-14,23:00,SSC Napoli,US Lecce,,
+29. Jornada,2026-03-14,23:00,Udinese Calcio,Juventus,,
+29. Jornada,2026-03-14,23:00,US Cremonese,ACF Fiorentina,,
+30. Jornada,2026-03-21,23:00,ACF Fiorentina,Inter,,
+30. Jornada,2026-03-21,23:00,AC Milan,Torino FC,,
+30. Jornada,2026-03-21,23:00,AS Roma,US Lecce,,
+30. Jornada,2026-03-21,23:00,Atalanta,Hellas Verona,,
+30. Jornada,2026-03-21,23:00,Cagliari Calcio,SSC Napoli,,
+30. Jornada,2026-03-21,23:00,Genoa CFC,Udinese Calcio,,
+30. Jornada,2026-03-21,23:00,Como 1907,Pisa SC,,
+30. Jornada,2026-03-21,23:00,Bologna FC,Lazio Roma,,
+30. Jornada,2026-03-21,23:00,Juventus,Sassuolo Calcio,,
+30. Jornada,2026-03-21,23:00,Parma Calcio 1913,US Cremonese,,
+31. Jornada,2026-04-03,22:00,Hellas Verona,ACF Fiorentina,,
+31. Jornada,2026-04-03,22:00,Inter,AS Roma,,
+31. Jornada,2026-04-03,22:00,Juventus,Genoa CFC,,
+31. Jornada,2026-04-03,22:00,Lazio Roma,Parma Calcio 1913,,
+31. Jornada,2026-04-03,22:00,Pisa SC,Torino FC,,
+31. Jornada,2026-04-03,22:00,Sassuolo Calcio,Cagliari Calcio,,
+31. Jornada,2026-04-03,22:00,SSC Napoli,AC Milan,,
+31. Jornada,2026-04-03,22:00,Udinese Calcio,Como 1907,,
+31. Jornada,2026-04-03,22:00,US Cremonese,Bologna FC,,
+31. Jornada,2026-04-03,22:00,US Lecce,Atalanta,,
+32. Jornada,2026-04-11,22:00,ACF Fiorentina,Lazio Roma,,
+32. Jornada,2026-04-11,22:00,AC Milan,Udinese Calcio,,
+32. Jornada,2026-04-11,22:00,AS Roma,Pisa SC,,
+32. Jornada,2026-04-11,22:00,Atalanta,Juventus,,
+32. Jornada,2026-04-11,22:00,Cagliari Calcio,US Cremonese,,
+32. Jornada,2026-04-11,22:00,Genoa CFC,Sassuolo Calcio,,
+32. Jornada,2026-04-11,22:00,Como 1907,Inter,,
+32. Jornada,2026-04-11,22:00,Bologna FC,US Lecce,,
+32. Jornada,2026-04-11,22:00,Torino FC,Hellas Verona,,
+32. Jornada,2026-04-11,22:00,Parma Calcio 1913,SSC Napoli,,
+33. Jornada,2026-04-18,22:00,AS Roma,Atalanta,,
+33. Jornada,2026-04-18,22:00,Hellas Verona,AC Milan,,
+33. Jornada,2026-04-18,22:00,Inter,Cagliari Calcio,,
+33. Jornada,2026-04-18,22:00,Juventus,Bologna FC,,
+33. Jornada,2026-04-18,22:00,Pisa SC,Genoa CFC,,
+33. Jornada,2026-04-18,22:00,Sassuolo Calcio,Como 1907,,
+33. Jornada,2026-04-18,22:00,SSC Napoli,Lazio Roma,,
+33. Jornada,2026-04-18,22:00,Udinese Calcio,Parma Calcio 1913,,
+33. Jornada,2026-04-18,22:00,US Cremonese,Torino FC,,
+33. Jornada,2026-04-18,22:00,US Lecce,ACF Fiorentina,,
+34. Jornada,2026-04-25,22:00,ACF Fiorentina,Sassuolo Calcio,,
+34. Jornada,2026-04-25,22:00,AC Milan,Juventus,,
+34. Jornada,2026-04-25,22:00,Cagliari Calcio,Atalanta,,
+34. Jornada,2026-04-25,22:00,Genoa CFC,Como 1907,,
+34. Jornada,2026-04-25,22:00,Bologna FC,AS Roma,,
+34. Jornada,2026-04-25,22:00,Torino FC,Inter,,
+34. Jornada,2026-04-25,22:00,Hellas Verona,US Lecce,,
+34. Jornada,2026-04-25,22:00,Lazio Roma,Udinese Calcio,,
+34. Jornada,2026-04-25,22:00,Parma Calcio 1913,Pisa SC,,
+34. Jornada,2026-04-25,22:00,SSC Napoli,US Cremonese,,
+35. Jornada,2026-05-02,22:00,AS Roma,ACF Fiorentina,,
+35. Jornada,2026-05-02,22:00,Atalanta,Genoa CFC,,
+35. Jornada,2026-05-02,22:00,Como 1907,SSC Napoli,,
+35. Jornada,2026-05-02,22:00,Bologna FC,Cagliari Calcio,,
+35. Jornada,2026-05-02,22:00,Inter,Parma Calcio 1913,,
+35. Jornada,2026-05-02,22:00,Juventus,Hellas Verona,,
+35. Jornada,2026-05-02,22:00,Pisa SC,US Lecce,,
+35. Jornada,2026-05-02,22:00,Sassuolo Calcio,AC Milan,,
+35. Jornada,2026-05-02,22:00,Udinese Calcio,Torino FC,,
+35. Jornada,2026-05-02,22:00,US Cremonese,Lazio Roma,,
+36. Jornada,2026-05-09,22:00,ACF Fiorentina,Genoa CFC,,
+36. Jornada,2026-05-09,22:00,AC Milan,Atalanta,,
+36. Jornada,2026-05-09,22:00,Cagliari Calcio,Udinese Calcio,,
+36. Jornada,2026-05-09,22:00,Torino FC,Sassuolo Calcio,,
+36. Jornada,2026-05-09,22:00,Hellas Verona,Como 1907,,
+36. Jornada,2026-05-09,22:00,Lazio Roma,Inter,,
+36. Jornada,2026-05-09,22:00,Parma Calcio 1913,AS Roma,,
+36. Jornada,2026-05-09,22:00,SSC Napoli,Bologna FC,,
+36. Jornada,2026-05-09,22:00,US Cremonese,Pisa SC,,
+36. Jornada,2026-05-09,22:00,US Lecce,Juventus,,
+37. Jornada,2026-05-16,22:00,AS Roma,Lazio Roma,,
+37. Jornada,2026-05-16,22:00,Atalanta,Bologna FC,,
+37. Jornada,2026-05-16,22:00,Cagliari Calcio,Torino FC,,
+37. Jornada,2026-05-16,22:00,Genoa CFC,AC Milan,,
+37. Jornada,2026-05-16,22:00,Como 1907,Parma Calcio 1913,,
+37. Jornada,2026-05-16,22:00,Inter,Hellas Verona,,
+37. Jornada,2026-05-16,22:00,Juventus,ACF Fiorentina,,
+37. Jornada,2026-05-16,22:00,Pisa SC,SSC Napoli,,
+37. Jornada,2026-05-16,22:00,Sassuolo Calcio,US Lecce,,
+37. Jornada,2026-05-16,22:00,Udinese Calcio,US Cremonese,,
+38. Jornada,2026-05-23,22:00,ACF Fiorentina,Atalanta,,
+38. Jornada,2026-05-23,22:00,AC Milan,Cagliari Calcio,,
+38. Jornada,2026-05-23,22:00,Bologna FC,Inter,,
+38. Jornada,2026-05-23,22:00,Torino FC,Juventus,,
+38. Jornada,2026-05-23,22:00,Hellas Verona,AS Roma,,
+38. Jornada,2026-05-23,22:00,Lazio Roma,Pisa SC,,
+38. Jornada,2026-05-23,22:00,Parma Calcio 1913,Sassuolo Calcio,,
+38. Jornada,2026-05-23,22:00,SSC Napoli,Udinese Calcio,,
+38. Jornada,2026-05-23,22:00,US Cremonese,Como 1907,,
+38. Jornada,2026-05-23,22:00,US Lecce,Genoa CFC,,

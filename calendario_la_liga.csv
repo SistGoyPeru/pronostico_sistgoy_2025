@@ -1,0 +1,381 @@
+Jornada,Fecha,Hora,Local,Visita,GA,GC
+1. Jornada,2025-08-15,17:00,Girona FC,Rayo Vallecano,1,3
+1. Jornada,2025-08-15,19:30,Villarreal CF,Real Oviedo,2,0
+1. Jornada,2025-08-16,17:30,RCD Mallorca,FC Barcelona,0,3
+1. Jornada,2025-08-16,19:30,CD Alavés,Levante UD,2,1
+1. Jornada,2025-08-16,19:30,Valencia CF,Real Sociedad,1,1
+1. Jornada,2025-08-17,15:00,RC Celta,Getafe CF,0,2
+1. Jornada,2025-08-17,17:30,Athletic Club,Sevilla FC,3,2
+1. Jornada,2025-08-17,19:30,Espanyol Barcelona,Atlético de Madrid,2,1
+1. Jornada,2025-08-18,19:00,Elche CF,Real Betis,1,1
+1. Jornada,2025-08-19,19:00,Real Madrid,CA Osasuna,1,0
+2. Jornada,2025-08-22,19:30,Real Betis,CD Alavés,1,0
+2. Jornada,2025-08-23,15:00,RCD Mallorca,RC Celta,1,1
+2. Jornada,2025-08-23,17:30,Atlético de Madrid,Elche CF,1,1
+2. Jornada,2025-08-23,19:30,Levante UD,FC Barcelona,2,3
+2. Jornada,2025-08-24,15:00,CA Osasuna,Valencia CF,1,0
+2. Jornada,2025-08-24,17:30,Real Sociedad,Espanyol Barcelona,2,2
+2. Jornada,2025-08-24,17:30,Villarreal CF,Girona FC,5,0
+2. Jornada,2025-08-24,19:30,Real Oviedo,Real Madrid,0,3
+2. Jornada,2025-08-25,17:30,Athletic Club,Rayo Vallecano,1,0
+2. Jornada,2025-08-25,19:30,Sevilla FC,Getafe CF,1,2
+3. Jornada,2025-08-29,17:30,Elche CF,Levante UD,2,0
+3. Jornada,2025-08-29,19:30,Valencia CF,Getafe CF,3,0
+3. Jornada,2025-08-30,15:00,CD Alavés,Atlético de Madrid,1,1
+3. Jornada,2025-08-30,17:00,Real Oviedo,Real Sociedad,1,0
+3. Jornada,2025-08-30,17:30,Girona FC,Sevilla FC,0,2
+3. Jornada,2025-08-30,19:30,Real Madrid,RCD Mallorca,2,1
+3. Jornada,2025-08-31,15:00,RC Celta,Villarreal CF,1,1
+3. Jornada,2025-08-31,17:00,Real Betis,Athletic Club,1,2
+3. Jornada,2025-08-31,17:30,Espanyol Barcelona,CA Osasuna,1,0
+3. Jornada,2025-08-31,19:30,Rayo Vallecano,FC Barcelona,1,1
+4. Jornada,2025-09-12,19:00,Sevilla FC,Elche CF,2,2
+4. Jornada,2025-09-13,12:00,Getafe CF,Real Oviedo,2,0
+4. Jornada,2025-09-13,14:15,Real Sociedad,Real Madrid,1,2
+4. Jornada,2025-09-13,16:30,Athletic Club,CD Alavés,0,1
+4. Jornada,2025-09-13,19:00,Atlético de Madrid,Villarreal CF,2,0
+4. Jornada,2025-09-14,12:00,RC Celta,Girona FC,1,1
+4. Jornada,2025-09-14,14:15,Levante UD,Real Betis,2,2
+4. Jornada,2025-09-14,16:30,CA Osasuna,Rayo Vallecano,2,0
+4. Jornada,2025-09-14,19:00,FC Barcelona,Valencia CF,6,0
+4. Jornada,2025-09-15,19:00,Espanyol Barcelona,RCD Mallorca,3,2
+5. Jornada,2025-09-19,19:00,Real Betis,Real Sociedad,3,1
+5. Jornada,2025-09-20,12:00,Girona FC,Levante UD,0,4
+5. Jornada,2025-09-20,14:15,Real Madrid,Espanyol Barcelona,2,0
+5. Jornada,2025-09-20,16:30,CD Alavés,Sevilla FC,1,2
+5. Jornada,2025-09-20,16:30,Villarreal CF,CA Osasuna,2,1
+5. Jornada,2025-09-20,19:00,Valencia CF,Athletic Club,2,0
+5. Jornada,2025-09-21,12:00,Rayo Vallecano,RC Celta,1,1
+5. Jornada,2025-09-21,14:15,RCD Mallorca,Atlético de Madrid,1,1
+5. Jornada,2025-09-21,16:30,Elche CF,Real Oviedo,1,0
+5. Jornada,2025-09-21,19:00,FC Barcelona,Getafe CF,3,0
+6. Jornada,2025-08-27,19:00,RC Celta,Real Betis,1,1
+6. Jornada,2025-09-23,17:00,Athletic Club,Girona FC,1,1
+6. Jornada,2025-09-23,17:00,Espanyol Barcelona,Valencia CF,2,2
+6. Jornada,2025-09-23,19:30,Levante UD,Real Madrid,1,4
+6. Jornada,2025-09-23,19:30,Sevilla FC,Villarreal CF,1,2
+6. Jornada,2025-09-24,17:00,Getafe CF,CD Alavés,1,1
+6. Jornada,2025-09-24,19:30,Atlético de Madrid,Rayo Vallecano,3,2
+6. Jornada,2025-09-24,19:30,Real Sociedad,RCD Mallorca,1,0
+6. Jornada,2025-09-25,17:30,CA Osasuna,Elche CF,1,1
+6. Jornada,2025-09-25,19:30,Real Oviedo,FC Barcelona,1,3
+7. Jornada,2025-09-26,19:00,Girona FC,Espanyol Barcelona,0,0
+7. Jornada,2025-09-27,12:00,Getafe CF,Levante UD,1,1
+7. Jornada,2025-09-27,14:15,Atlético de Madrid,Real Madrid,5,2
+7. Jornada,2025-09-27,16:30,RCD Mallorca,CD Alavés,1,0
+7. Jornada,2025-09-27,19:00,Villarreal CF,Athletic Club,1,0
+7. Jornada,2025-09-28,12:00,Rayo Vallecano,Sevilla FC,0,1
+7. Jornada,2025-09-28,14:15,Elche CF,RC Celta,2,1
+7. Jornada,2025-09-28,16:30,FC Barcelona,Real Sociedad,2,1
+7. Jornada,2025-09-28,19:00,Real Betis,CA Osasuna,2,0
+7. Jornada,2025-09-30,18:00,Valencia CF,Real Oviedo,1,2
+8. Jornada,2025-10-03,19:00,CA Osasuna,Getafe CF,2,1
+8. Jornada,2025-10-04,12:00,Real Oviedo,Levante UD,0,2
+8. Jornada,2025-10-04,14:15,Girona FC,Valencia CF,2,1
+8. Jornada,2025-10-04,16:30,Athletic Club,RCD Mallorca,2,1
+8. Jornada,2025-10-04,19:00,Real Madrid,Villarreal CF,3,1
+8. Jornada,2025-10-05,12:00,CD Alavés,Elche CF,3,1
+8. Jornada,2025-10-05,14:15,Sevilla FC,FC Barcelona,4,1
+8. Jornada,2025-10-05,16:30,Espanyol Barcelona,Real Betis,1,2
+8. Jornada,2025-10-05,16:30,Real Sociedad,Rayo Vallecano,0,1
+8. Jornada,2025-10-05,19:00,RC Celta,Atlético de Madrid,1,1
+9. Jornada,2025-10-17,19:00,Real Oviedo,Espanyol Barcelona,0,2
+9. Jornada,2025-10-18,12:00,Sevilla FC,RCD Mallorca,1,3
+9. Jornada,2025-10-18,14:15,FC Barcelona,Girona FC,2,1
+9. Jornada,2025-10-18,16:30,Villarreal CF,Real Betis,2,2
+9. Jornada,2025-10-18,19:00,Atlético de Madrid,CA Osasuna,1,0
+9. Jornada,2025-10-19,12:00,Elche CF,Athletic Club,0,0
+9. Jornada,2025-10-19,14:15,RC Celta,Real Sociedad,1,1
+9. Jornada,2025-10-19,16:30,Levante UD,Rayo Vallecano,0,3
+9. Jornada,2025-10-19,19:00,Getafe CF,Real Madrid,0,1
+9. Jornada,2025-10-20,19:00,CD Alavés,Valencia CF,0,0
+10. Jornada,2025-10-24,19:00,Real Sociedad,Sevilla FC,2,1
+10. Jornada,2025-10-25,12:00,Girona FC,Real Oviedo,3,3
+10. Jornada,2025-10-25,14:15,Espanyol Barcelona,Elche CF,1,0
+10. Jornada,2025-10-25,16:30,Athletic Club,Getafe CF,0,1
+10. Jornada,2025-10-25,19:00,Valencia CF,Villarreal CF,0,2
+10. Jornada,2025-10-26,13:00,RCD Mallorca,Levante UD,1,1
+10. Jornada,2025-10-26,15:15,Real Madrid,FC Barcelona,2,1
+10. Jornada,2025-10-26,17:30,CA Osasuna,RC Celta,2,3
+10. Jornada,2025-10-26,20:00,Rayo Vallecano,CD Alavés,1,0
+10. Jornada,2025-10-27,20:00,Real Betis,Atlético de Madrid,0,2
+11. Jornada,2025-10-31,20:00,Getafe CF,Girona FC,2,1
+11. Jornada,2025-11-01,13:00,Villarreal CF,Rayo Vallecano,4,0
+11. Jornada,2025-11-01,15:15,Atlético de Madrid,Sevilla FC,3,0
+11. Jornada,2025-11-01,17:30,Real Sociedad,Athletic Club,3,2
+11. Jornada,2025-11-01,20:00,Real Madrid,Valencia CF,4,0
+11. Jornada,2025-11-02,13:00,Levante UD,RC Celta,1,2
+11. Jornada,2025-11-02,15:15,CD Alavés,Espanyol Barcelona,2,1
+11. Jornada,2025-11-02,17:30,FC Barcelona,Elche CF,3,1
+11. Jornada,2025-11-02,20:00,Real Betis,RCD Mallorca,3,0
+11. Jornada,2025-11-03,20:00,Real Oviedo,CA Osasuna,0,0
+12. Jornada,2025-11-07,20:00,Elche CF,Real Sociedad,1,1
+12. Jornada,2025-11-08,13:00,Girona FC,CD Alavés,1,0
+12. Jornada,2025-11-08,15:15,Sevilla FC,CA Osasuna,1,0
+12. Jornada,2025-11-08,17:30,Atlético de Madrid,Levante UD,3,1
+12. Jornada,2025-11-08,20:00,Espanyol Barcelona,Villarreal CF,0,2
+12. Jornada,2025-11-09,13:00,Athletic Club,Real Oviedo,1,0
+12. Jornada,2025-11-09,15:15,Rayo Vallecano,Real Madrid,0,0
+12. Jornada,2025-11-09,17:30,Valencia CF,Real Betis,1,1
+12. Jornada,2025-11-09,17:30,RCD Mallorca,Getafe CF,1,0
+12. Jornada,2025-11-09,20:00,RC Celta,FC Barcelona,2,4
+13. Jornada,2025-11-21,20:00,Valencia CF,Levante UD,1,0
+13. Jornada,2025-11-22,13:00,CD Alavés,RC Celta,0,1
+13. Jornada,2025-11-22,15:15,FC Barcelona,Athletic Club,4,0
+13. Jornada,2025-11-22,17:30,CA Osasuna,Real Sociedad,1,3
+13. Jornada,2025-11-22,20:00,Villarreal CF,RCD Mallorca,2,1
+13. Jornada,2025-11-23,13:00,Real Oviedo,Rayo Vallecano,0,0
+13. Jornada,2025-11-23,15:15,Real Betis,Girona FC,1,1
+13. Jornada,2025-11-23,17:30,Getafe CF,Atlético de Madrid,0,1
+13. Jornada,2025-11-23,20:00,Elche CF,Real Madrid,2,2
+13. Jornada,2025-11-24,20:00,Espanyol Barcelona,Sevilla FC,2,1
+14. Jornada,2025-11-28,20:00,Getafe CF,Elche CF,1,0
+14. Jornada,2025-11-29,13:00,RCD Mallorca,CA Osasuna,2,2
+14. Jornada,2025-11-29,15:15,FC Barcelona,CD Alavés,3,1
+14. Jornada,2025-11-29,17:30,Levante UD,Athletic Club,0,2
+14. Jornada,2025-11-29,20:00,Atlético de Madrid,Real Oviedo,2,0
+14. Jornada,2025-11-30,13:00,Real Sociedad,Villarreal CF,0,1
+14. Jornada,2025-11-30,15:15,Sevilla FC,Real Betis,,
+14. Jornada,2025-11-30,17:30,RC Celta,Espanyol Barcelona,,
+14. Jornada,2025-11-30,20:00,Girona FC,Real Madrid,,
+14. Jornada,2025-12-01,20:00,Rayo Vallecano,Valencia CF,,
+15. Jornada,2025-12-05,20:00,Real Oviedo,RCD Mallorca,,
+15. Jornada,2025-12-06,13:00,Villarreal CF,Getafe CF,,
+15. Jornada,2025-12-06,15:15,CD Alavés,Real Sociedad,,
+15. Jornada,2025-12-06,17:30,Real Betis,FC Barcelona,,
+15. Jornada,2025-12-06,20:00,Athletic Club,Atlético de Madrid,,
+15. Jornada,2025-12-07,13:00,Elche CF,Girona FC,,
+15. Jornada,2025-12-07,15:15,Valencia CF,Sevilla FC,,
+15. Jornada,2025-12-07,17:30,Espanyol Barcelona,Rayo Vallecano,,
+15. Jornada,2025-12-07,20:00,Real Madrid,RC Celta,,
+15. Jornada,2025-12-08,20:00,CA Osasuna,Levante UD,,
+16. Jornada,2025-12-12,20:00,Real Sociedad,Girona FC,,
+16. Jornada,2025-12-13,13:00,Atlético de Madrid,Valencia CF,,
+16. Jornada,2025-12-13,15:15,RCD Mallorca,Elche CF,,
+16. Jornada,2025-12-13,17:30,FC Barcelona,CA Osasuna,,
+16. Jornada,2025-12-13,20:00,Getafe CF,Espanyol Barcelona,,
+16. Jornada,2025-12-14,13:00,Sevilla FC,Real Oviedo,,
+16. Jornada,2025-12-14,15:15,RC Celta,Athletic Club,,
+16. Jornada,2025-12-14,17:30,Levante UD,Villarreal CF,,
+16. Jornada,2025-12-14,20:00,CD Alavés,Real Madrid,,
+16. Jornada,2025-12-15,20:00,Rayo Vallecano,Real Betis,,
+17. Jornada,2025-12-19,20:00,Valencia CF,RCD Mallorca,,
+17. Jornada,2025-12-20,13:00,Real Oviedo,RC Celta,,
+17. Jornada,2025-12-20,15:15,Levante UD,Real Sociedad,,
+17. Jornada,2025-12-20,17:30,CA Osasuna,CD Alavés,,
+17. Jornada,2025-12-20,20:00,Real Madrid,Sevilla FC,,
+17. Jornada,2025-12-21,13:00,Girona FC,Atlético de Madrid,,
+17. Jornada,2025-12-21,15:15,Villarreal CF,FC Barcelona,,
+17. Jornada,2025-12-21,17:30,Elche CF,Rayo Vallecano,,
+17. Jornada,2025-12-21,20:00,Real Betis,Getafe CF,,
+17. Jornada,2025-12-22,20:00,Athletic Club,Espanyol Barcelona,,
+18. Jornada,2026-01-03,23:00,CD Alavés,Real Oviedo,,
+18. Jornada,2026-01-03,23:00,RC Celta,Valencia CF,,
+18. Jornada,2026-01-03,23:00,Elche CF,Villarreal CF,,
+18. Jornada,2026-01-03,23:00,CA Osasuna,Athletic Club,,
+18. Jornada,2026-01-03,23:00,Real Sociedad,Atlético de Madrid,,
+18. Jornada,2026-01-03,23:00,Espanyol Barcelona,FC Barcelona,,
+18. Jornada,2026-01-03,23:00,Real Madrid,Real Betis,,
+18. Jornada,2026-01-03,23:00,Rayo Vallecano,Getafe CF,,
+18. Jornada,2026-01-03,23:00,RCD Mallorca,Girona FC,,
+18. Jornada,2026-01-03,23:00,Sevilla FC,Levante UD,,
+19. Jornada,2025-12-02,20:00,FC Barcelona,Atlético de Madrid,,
+19. Jornada,2025-12-03,18:00,Athletic Club,Real Madrid,,
+19. Jornada,2026-01-10,23:00,Getafe CF,Real Sociedad,,
+19. Jornada,2026-01-10,23:00,Girona FC,CA Osasuna,,
+19. Jornada,2026-01-10,23:00,Villarreal CF,CD Alavés,,
+19. Jornada,2026-01-10,23:00,Real Oviedo,Real Betis,,
+19. Jornada,2026-01-10,23:00,Sevilla FC,RC Celta,,
+19. Jornada,2026-01-10,23:00,Valencia CF,Elche CF,,
+19. Jornada,2026-01-10,23:00,Levante UD,Espanyol Barcelona,,
+19. Jornada,2026-01-10,23:00,Rayo Vallecano,RCD Mallorca,,
+20. Jornada,2026-01-17,23:00,Real Betis,Villarreal CF,,
+20. Jornada,2026-01-17,23:00,RC Celta,Rayo Vallecano,,
+20. Jornada,2026-01-17,23:00,Elche CF,Sevilla FC,,
+20. Jornada,2026-01-17,23:00,Espanyol Barcelona,Girona FC,,
+20. Jornada,2026-01-17,23:00,Getafe CF,Valencia CF,,
+20. Jornada,2026-01-17,23:00,CA Osasuna,Real Oviedo,,
+20. Jornada,2026-01-17,23:00,Atlético de Madrid,CD Alavés,,
+20. Jornada,2026-01-17,23:00,RCD Mallorca,Athletic Club,,
+20. Jornada,2026-01-17,23:00,Real Sociedad,FC Barcelona,,
+20. Jornada,2026-01-17,23:00,Real Madrid,Levante UD,,
+21. Jornada,2026-01-24,23:00,CD Alavés,Real Betis,,
+21. Jornada,2026-01-24,23:00,Atlético de Madrid,RCD Mallorca,,
+21. Jornada,2026-01-24,23:00,FC Barcelona,Real Oviedo,,
+21. Jornada,2026-01-24,23:00,Sevilla FC,Athletic Club,,
+21. Jornada,2026-01-24,23:00,Real Sociedad,RC Celta,,
+21. Jornada,2026-01-24,23:00,Levante UD,Elche CF,,
+21. Jornada,2026-01-24,23:00,Valencia CF,Espanyol Barcelona,,
+21. Jornada,2026-01-24,23:00,Girona FC,Getafe CF,,
+21. Jornada,2026-01-24,23:00,Rayo Vallecano,CA Osasuna,,
+21. Jornada,2026-01-24,23:00,Villarreal CF,Real Madrid,,
+22. Jornada,2026-01-31,23:00,Athletic Club,Real Sociedad,,
+22. Jornada,2026-01-31,23:00,Real Betis,Valencia CF,,
+22. Jornada,2026-01-31,23:00,RCD Mallorca,Sevilla FC,,
+22. Jornada,2026-01-31,23:00,CA Osasuna,Villarreal CF,,
+22. Jornada,2026-01-31,23:00,Espanyol Barcelona,CD Alavés,,
+22. Jornada,2026-01-31,23:00,Levante UD,Atlético de Madrid,,
+22. Jornada,2026-01-31,23:00,Elche CF,FC Barcelona,,
+22. Jornada,2026-01-31,23:00,Getafe CF,RC Celta,,
+22. Jornada,2026-01-31,23:00,Real Oviedo,Girona FC,,
+22. Jornada,2026-01-31,23:00,Real Madrid,Rayo Vallecano,,
+23. Jornada,2026-02-07,23:00,CD Alavés,Getafe CF,,
+23. Jornada,2026-02-07,23:00,Athletic Club,Levante UD,,
+23. Jornada,2026-02-07,23:00,Atlético de Madrid,Real Betis,,
+23. Jornada,2026-02-07,23:00,FC Barcelona,RCD Mallorca,,
+23. Jornada,2026-02-07,23:00,RC Celta,CA Osasuna,,
+23. Jornada,2026-02-07,23:00,Real Sociedad,Elche CF,,
+23. Jornada,2026-02-07,23:00,Villarreal CF,Espanyol Barcelona,,
+23. Jornada,2026-02-07,23:00,Sevilla FC,Girona FC,,
+23. Jornada,2026-02-07,23:00,Valencia CF,Real Madrid,,
+23. Jornada,2026-02-07,23:00,Rayo Vallecano,Real Oviedo,,
+24. Jornada,2026-02-14,23:00,Elche CF,CA Osasuna,,
+24. Jornada,2026-02-14,23:00,Getafe CF,Villarreal CF,,
+24. Jornada,2026-02-14,23:00,Levante UD,Valencia CF,,
+24. Jornada,2026-02-14,23:00,Real Madrid,Real Sociedad,,
+24. Jornada,2026-02-14,23:00,Sevilla FC,CD Alavés,,
+24. Jornada,2026-02-14,23:00,Real Oviedo,Athletic Club,,
+24. Jornada,2026-02-14,23:00,Rayo Vallecano,Atlético de Madrid,,
+24. Jornada,2026-02-14,23:00,Girona FC,FC Barcelona,,
+24. Jornada,2026-02-14,23:00,RCD Mallorca,Real Betis,,
+24. Jornada,2026-02-14,23:00,Espanyol Barcelona,RC Celta,,
+25. Jornada,2026-02-21,23:00,CD Alavés,Girona FC,,
+25. Jornada,2026-02-21,23:00,Athletic Club,Elche CF,,
+25. Jornada,2026-02-21,23:00,Atlético de Madrid,Espanyol Barcelona,,
+25. Jornada,2026-02-21,23:00,FC Barcelona,Levante UD,,
+25. Jornada,2026-02-21,23:00,Real Betis,Rayo Vallecano,,
+25. Jornada,2026-02-21,23:00,RC Celta,RCD Mallorca,,
+25. Jornada,2026-02-21,23:00,Getafe CF,Sevilla FC,,
+25. Jornada,2026-02-21,23:00,CA Osasuna,Real Madrid,,
+25. Jornada,2026-02-21,23:00,Villarreal CF,Valencia CF,,
+25. Jornada,2026-02-21,23:00,Real Sociedad,Real Oviedo,,
+26. Jornada,2026-02-28,23:00,FC Barcelona,Villarreal CF,,
+26. Jornada,2026-02-28,23:00,Real Betis,Sevilla FC,,
+26. Jornada,2026-02-28,23:00,Elche CF,Espanyol Barcelona,,
+26. Jornada,2026-02-28,23:00,RCD Mallorca,Real Sociedad,,
+26. Jornada,2026-02-28,23:00,Levante UD,CD Alavés,,
+26. Jornada,2026-02-28,23:00,Rayo Vallecano,Athletic Club,,
+26. Jornada,2026-02-28,23:00,Real Oviedo,Atlético de Madrid,,
+26. Jornada,2026-02-28,23:00,Girona FC,RC Celta,,
+26. Jornada,2026-02-28,23:00,Real Madrid,Getafe CF,,
+26. Jornada,2026-02-28,23:00,Valencia CF,CA Osasuna,,
+27. Jornada,2026-03-07,23:00,Athletic Club,FC Barcelona,,
+27. Jornada,2026-03-07,23:00,Atlético de Madrid,Real Sociedad,,
+27. Jornada,2026-03-07,23:00,RC Celta,Real Madrid,,
+27. Jornada,2026-03-07,23:00,Espanyol Barcelona,Real Oviedo,,
+27. Jornada,2026-03-07,23:00,Valencia CF,CD Alavés,,
+27. Jornada,2026-03-07,23:00,Getafe CF,Real Betis,,
+27. Jornada,2026-03-07,23:00,Villarreal CF,Elche CF,,
+27. Jornada,2026-03-07,23:00,Levante UD,Girona FC,,
+27. Jornada,2026-03-07,23:00,CA Osasuna,RCD Mallorca,,
+27. Jornada,2026-03-07,23:00,Sevilla FC,Rayo Vallecano,,
+28. Jornada,2026-03-14,23:00,CD Alavés,Villarreal CF,,
+28. Jornada,2026-03-14,23:00,Atlético de Madrid,Getafe CF,,
+28. Jornada,2026-03-14,23:00,FC Barcelona,Sevilla FC,,
+28. Jornada,2026-03-14,23:00,Real Betis,RC Celta,,
+28. Jornada,2026-03-14,23:00,Real Oviedo,Valencia CF,,
+28. Jornada,2026-03-14,23:00,Girona FC,Athletic Club,,
+28. Jornada,2026-03-14,23:00,Real Madrid,Elche CF,,
+28. Jornada,2026-03-14,23:00,RCD Mallorca,Espanyol Barcelona,,
+28. Jornada,2026-03-14,23:00,Rayo Vallecano,Levante UD,,
+28. Jornada,2026-03-14,23:00,Real Sociedad,CA Osasuna,,
+29. Jornada,2026-03-21,23:00,Athletic Club,Real Betis,,
+29. Jornada,2026-03-21,23:00,FC Barcelona,Rayo Vallecano,,
+29. Jornada,2026-03-21,23:00,Elche CF,RCD Mallorca,,
+29. Jornada,2026-03-21,23:00,Espanyol Barcelona,Getafe CF,,
+29. Jornada,2026-03-21,23:00,Levante UD,Real Oviedo,,
+29. Jornada,2026-03-21,23:00,Sevilla FC,Valencia CF,,
+29. Jornada,2026-03-21,23:00,RC Celta,CD Alavés,,
+29. Jornada,2026-03-21,23:00,Real Madrid,Atlético de Madrid,,
+29. Jornada,2026-03-21,23:00,CA Osasuna,Girona FC,,
+29. Jornada,2026-03-21,23:00,Villarreal CF,Real Sociedad,,
+30. Jornada,2026-04-04,22:00,CD Alavés,CA Osasuna,,
+30. Jornada,2026-04-04,22:00,Atlético de Madrid,FC Barcelona,,
+30. Jornada,2026-04-04,22:00,Real Betis,Espanyol Barcelona,,
+30. Jornada,2026-04-04,22:00,Girona FC,Villarreal CF,,
+30. Jornada,2026-04-04,22:00,RCD Mallorca,Real Madrid,,
+30. Jornada,2026-04-04,22:00,Real Oviedo,Sevilla FC,,
+30. Jornada,2026-04-04,22:00,Getafe CF,Athletic Club,,
+30. Jornada,2026-04-04,22:00,Valencia CF,RC Celta,,
+30. Jornada,2026-04-04,22:00,Rayo Vallecano,Elche CF,,
+30. Jornada,2026-04-04,22:00,Real Sociedad,Levante UD,,
+31. Jornada,2026-04-11,22:00,Athletic Club,Villarreal CF,,
+31. Jornada,2026-04-11,22:00,FC Barcelona,Espanyol Barcelona,,
+31. Jornada,2026-04-11,22:00,RC Celta,Real Oviedo,,
+31. Jornada,2026-04-11,22:00,Elche CF,Valencia CF,,
+31. Jornada,2026-04-11,22:00,RCD Mallorca,Rayo Vallecano,,
+31. Jornada,2026-04-11,22:00,Real Sociedad,CD Alavés,,
+31. Jornada,2026-04-11,22:00,Sevilla FC,Atlético de Madrid,,
+31. Jornada,2026-04-11,22:00,CA Osasuna,Real Betis,,
+31. Jornada,2026-04-11,22:00,Levante UD,Getafe CF,,
+31. Jornada,2026-04-11,22:00,Real Madrid,Girona FC,,
+32. Jornada,2026-04-18,22:00,CD Alavés,RCD Mallorca,,
+32. Jornada,2026-04-18,22:00,Real Betis,Real Madrid,,
+32. Jornada,2026-04-18,22:00,Espanyol Barcelona,Levante UD,,
+32. Jornada,2026-04-18,22:00,CA Osasuna,Sevilla FC,,
+32. Jornada,2026-04-18,22:00,Rayo Vallecano,Real Sociedad,,
+32. Jornada,2026-04-18,22:00,Atlético de Madrid,Athletic Club,,
+32. Jornada,2026-04-18,22:00,Getafe CF,FC Barcelona,,
+32. Jornada,2026-04-18,22:00,Villarreal CF,RC Celta,,
+32. Jornada,2026-04-18,22:00,Real Oviedo,Elche CF,,
+32. Jornada,2026-04-18,22:00,Valencia CF,Girona FC,,
+33. Jornada,2026-04-21,22:00,Athletic Club,CA Osasuna,,
+33. Jornada,2026-04-21,22:00,FC Barcelona,RC Celta,,
+33. Jornada,2026-04-21,22:00,Levante UD,Sevilla FC,,
+33. Jornada,2026-04-21,22:00,RCD Mallorca,Valencia CF,,
+33. Jornada,2026-04-21,22:00,Real Oviedo,Villarreal CF,,
+33. Jornada,2026-04-21,22:00,Real Madrid,CD Alavés,,
+33. Jornada,2026-04-21,22:00,Elche CF,Atlético de Madrid,,
+33. Jornada,2026-04-21,22:00,Girona FC,Real Betis,,
+33. Jornada,2026-04-21,22:00,Rayo Vallecano,Espanyol Barcelona,,
+33. Jornada,2026-04-21,22:00,Real Sociedad,Getafe CF,,
+34. Jornada,2026-05-02,22:00,CD Alavés,Athletic Club,,
+34. Jornada,2026-05-02,22:00,Real Betis,Real Oviedo,,
+34. Jornada,2026-05-02,22:00,RC Celta,Elche CF,,
+34. Jornada,2026-05-02,22:00,Espanyol Barcelona,Real Madrid,,
+34. Jornada,2026-05-02,22:00,Getafe CF,Rayo Vallecano,,
+34. Jornada,2026-05-02,22:00,Girona FC,RCD Mallorca,,
+34. Jornada,2026-05-02,22:00,Valencia CF,Atlético de Madrid,,
+34. Jornada,2026-05-02,22:00,CA Osasuna,FC Barcelona,,
+34. Jornada,2026-05-02,22:00,Villarreal CF,Levante UD,,
+34. Jornada,2026-05-02,22:00,Sevilla FC,Real Sociedad,,
+35. Jornada,2026-05-09,22:00,Athletic Club,Valencia CF,,
+35. Jornada,2026-05-09,22:00,Atlético de Madrid,RC Celta,,
+35. Jornada,2026-05-09,22:00,FC Barcelona,Real Madrid,,
+35. Jornada,2026-05-09,22:00,Levante UD,CA Osasuna,,
+35. Jornada,2026-05-09,22:00,RCD Mallorca,Villarreal CF,,
+35. Jornada,2026-05-09,22:00,Elche CF,CD Alavés,,
+35. Jornada,2026-05-09,22:00,Real Sociedad,Real Betis,,
+35. Jornada,2026-05-09,22:00,Sevilla FC,Espanyol Barcelona,,
+35. Jornada,2026-05-09,22:00,Real Oviedo,Getafe CF,,
+35. Jornada,2026-05-09,22:00,Rayo Vallecano,Girona FC,,
+36. Jornada,2026-05-12,22:00,CD Alavés,FC Barcelona,,
+36. Jornada,2026-05-12,22:00,Real Betis,Elche CF,,
+36. Jornada,2026-05-12,22:00,RC Celta,Levante UD,,
+36. Jornada,2026-05-12,22:00,Getafe CF,RCD Mallorca,,
+36. Jornada,2026-05-12,22:00,Girona FC,Real Sociedad,,
+36. Jornada,2026-05-12,22:00,Espanyol Barcelona,Athletic Club,,
+36. Jornada,2026-05-12,22:00,CA Osasuna,Atlético de Madrid,,
+36. Jornada,2026-05-12,22:00,Valencia CF,Rayo Vallecano,,
+36. Jornada,2026-05-12,22:00,Villarreal CF,Sevilla FC,,
+36. Jornada,2026-05-12,22:00,Real Madrid,Real Oviedo,,
+37. Jornada,2026-05-16,22:00,Athletic Club,RC Celta,,
+37. Jornada,2026-05-16,22:00,Atlético de Madrid,Girona FC,,
+37. Jornada,2026-05-16,22:00,FC Barcelona,Real Betis,,
+37. Jornada,2026-05-16,22:00,Elche CF,Getafe CF,,
+37. Jornada,2026-05-16,22:00,Levante UD,RCD Mallorca,,
+37. Jornada,2026-05-16,22:00,Rayo Vallecano,Villarreal CF,,
+37. Jornada,2026-05-16,22:00,Real Sociedad,Valencia CF,,
+37. Jornada,2026-05-16,22:00,Real Oviedo,CD Alavés,,
+37. Jornada,2026-05-16,22:00,CA Osasuna,Espanyol Barcelona,,
+37. Jornada,2026-05-16,22:00,Sevilla FC,Real Madrid,,
+38. Jornada,2026-05-23,22:00,CD Alavés,Rayo Vallecano,,
+38. Jornada,2026-05-23,22:00,Real Betis,Levante UD,,
+38. Jornada,2026-05-23,22:00,RC Celta,Sevilla FC,,
+38. Jornada,2026-05-23,22:00,Espanyol Barcelona,Real Sociedad,,
+38. Jornada,2026-05-23,22:00,Getafe CF,CA Osasuna,,
+38. Jornada,2026-05-23,22:00,RCD Mallorca,Real Oviedo,,
+38. Jornada,2026-05-23,22:00,Real Madrid,Athletic Club,,
+38. Jornada,2026-05-23,22:00,Villarreal CF,Atlético de Madrid,,
+38. Jornada,2026-05-23,22:00,Valencia CF,FC Barcelona,,
+38. Jornada,2026-05-23,22:00,Girona FC,Elche CF,,

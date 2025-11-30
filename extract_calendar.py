@@ -351,5 +351,49 @@ class StatisticsCalculator:
         matches = self.df.filter(pl.col("Jornada") == round_name)
         return matches
 
+def main():
+    """
+    Extrae datos de las 5 ligas europeas más importantes:
+    - Premier League (Inglaterra)
+    - La Liga (España)
+    - Serie A (Italia)
+    - Bundesliga (Alemania)
+    - Ligue 1 (Francia)
+    """
+    
+    ligas = {
+        "Premier League": "https://www.livefutbol.com/competition/co91/inglaterra-premier-league/all-matches/",
+        "La Liga": "https://www.livefutbol.com/competition/co97/espana-primera-division/all-matches/",
+        "La Liga 2": "https://www.livefutbol.com/competition/co110/espana-segunda-division/all-matches/",
+        "Serie A": "https://www.livefutbol.com/competition/co111/italia-serie-a/all-matches/",
+        "Bundesliga": "https://www.livefutbol.com/competition/co12/alemania-bundesliga/all-matches/",
+        "Ligue 1": "https://www.livefutbol.com/competition/co71/francia-ligue-1/all-matches/"
+    }
+    
+    for nombre_liga, url in ligas.items():
+        print(f"\n{'='*60}")
+        print(f"Procesando: {nombre_liga}")
+        print(f"{'='*60}")
+        
+        extractor = CalendarExtractor(url)
+        extractor.fetch_and_parse()
+        
+        # Guardar con nombre específico de la liga
+        filename = f"calendario_{nombre_liga.lower().replace(' ', '_')}.csv"
+        extractor.save_to_csv(filename)
+        
+        # Mostrar estadísticas
+        df = extractor.get_dataframe()
+        if not df.is_empty():
+            stats = StatisticsCalculator(df)
+            print(f"\n📊 Estadísticas de {nombre_liga}:")
+            print(f"  - Partidos jugados: {stats.count_played_matches()}")
+            print(f"  - Partidos por jugar: {stats.count_upcoming_matches()}")
+            print(f"  - Progreso: {stats.percentage_played():.1f}%")
+            if stats.count_played_matches() > 0:
+                print(f"  - Goles promedio: {stats.average_goals_per_match():.2f}")
+                print(f"  - Over 2.5: {stats.percentage_over_goals(2):.1f}%")
+                print(f"  - BTTS: {stats.percentage_both_teams_score():.1f}%")
+
 if __name__ == "__main__":
     main()
